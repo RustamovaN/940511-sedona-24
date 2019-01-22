@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Наталия Рустамова](https://up.htmlacademy.ru/htmlcss/24/user/940511).
-* Наставник:  [Елизавета Винокурова] (https://htmlacademy.ru/profile/elivin)
+* Наставник:  [Елизавета Винокурова] (https://up.htmlacademy.ru/htmlcss/24/user/123355)
 
 ---
 
