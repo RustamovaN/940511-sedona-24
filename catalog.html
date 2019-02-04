@@ -21,46 +21,46 @@
     </nav>
   </header>
   <main class="placeholder">
-    <form class="filter" method="get" action="catalog-list.html">
+    <form class="filter" method="get" action="catalog.html">
       <p class="filter-container">Инфраструктура</p>
       <label for="filter-infrastructure">Бассейн</label>
-      <input id="filter-infrastructure" type="checkbox" name="option1">
+      <input id="filter-infrastructure" type="checkbox" name="pool">
       <label for="filter-parking">Парковка</label>
-      <input id="filter-parking" type="checkbox" name="option2">
+      <input id="filter-parking" type="checkbox" name="avto">
       <label for="filter-internet">Wi-Fi</label>
-      <input id="filter-internet" type="checkbox" name="option3">
+      <input id="filter-internet" type="checkbox" name="network">
       </p>
       <p class="filter-housing">Тип жилья</p>
       <label for="filter-hotel">Гостиница</label>
-      <input id="filter-hotel" type="checkbox" name="option4">
+      <input id="filter-hotel" type="checkbox" name="hous">
       <label for="filter-motel">Мотель</label>
-      <input id="filter-motel" type="checkbox" name="option5">
+      <input id="filter-motel" type="checkbox" name="dwelling">
       <label for="filter-apartments">Аппартаменты</label>
-      <input id="filter-apartments" type="checkbox" name="option6">
+      <input id="filter-apartments" type="checkbox" name="lodging">
       </p>
       <p class="filter-price">Стоимость в сутки(Р)</p>
       <label for="filter-range">От 0 до 3000</label>
       <div>
         <input id="filter-range" name="option8">
       </div>
-      </p>
       <button class="button" type="submit">Показать</button>
     </form>
-    <form class="found" method="get" action="catalog-list.html">
-      <p class="options">Найдено:</p>
-      <label for="option-found">Сортировка: по цене по типу по рейтингу</label>
-      <input id="option-found" type="text" name="">
-      </p>
-    </form>
+    <div class="sorting">
+      <h2>Найдено:</h2>
+      <p>Сортировка:</p>
+      <p><a href="#">по цене</a></p>
+      <p><a href="#">по типу</a></p>
+      <p><a href="#">по рейтингу</a></p>
+    </div>
     <h1 class="visually-hidden">Список гостиниц</h1>
     <ul class="catalog-list">
       <li class="catalog-item">
         <article>
-          <h2><a href="amara.html">Amara Resort & Spa</a></h2>
+          <h2><a href="catalog.html">Amara Resort & Spa</a></h2>
           <img src="img/catalog-one.jpg" width="135" height="90" alt="Amara Resort & Spa">
           <p>Гостиница от 4000 р.</p>
-          <a class="button" href="catalog-list.html">Забронировать</a>
-          <a class="button" href="catalog-list.html">Подробнее</a>
+          <a class="button" href="catalog.html">Забронировать</a>
+          <a class="button" href="catalog.html">Подробнее</a>
           <p>Рейтинг<span class="value">8,5</span></p>
           <ul>
             <li class="rating">1</li>
@@ -73,11 +73,11 @@
       </li>
       <li class="catalog-item">
         <article>
-          <h2><a href="Desert.html">Desert quail inn</a></h2>
+          <h2><a href="catalog.html">Desert quail inn</a></h2>
           <img src="img/catalog-two.jpg" width="135" height="90" alt="Desert quail inn">
           <p>Мотель от 3000 р.</p>
-          <a class="button" href="catalog-list.html">Забронировать</a>
-          <a class="button" href="catalog-list.html">Подробнее</a>
+          <a class="button" href="catalog.html">Забронировать</a>
+          <a class="button" href="catalog.html">Подробнее</a>
           <p>рейтинг<span class="value">8,9</span></p>
           <ul>
             <li class="rating">1</li>
@@ -90,11 +90,11 @@
       </li>
       <li class="catalog-item">
         <article>
-          <h2><a href="villas.html">Villas at poko diablo</a></h2>
+          <h2><a href="catalog.html">Villas at poko diablo</a></h2>
           <img src="img/catalog-three.jpg" width="135" height="90" alt="Villas at poko diablo">
           <p>Апартаменты от 2000 р.</p>
-          <a class="button" href="catalog-list.html">Забронировать</a>
-          <a class="button" href="catalog-list.html">Подробнее</a>
+          <a class="button" href="catalog.html">Забронировать</a>
+          <a class="button" href="catalog.html">Подробнее</a>
           <p>Рейтинг<span class="value">9,2</span></p>
           <ul>
             <li class="rating">1</li>
@@ -116,8 +116,8 @@
     </ul>
     <p class="footer-copyright">
       <b>Website by</b>
-      <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
-      <img src="img/logo-name.png" width="115" height="41">
+      <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+      <img src="img/logo-name.png" width="115" height="41" alt="лендинг интенсива «Профессиональный HTML и CSS, уровень 1»">
     </p>
   </footer>
 </body>
