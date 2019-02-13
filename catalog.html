@@ -43,7 +43,7 @@
       </p>
       <p class="filter-price">Стоимость в сутки(Р)</p>
       <div class="money">
-        <label for="filter-range">от<input id="filter-range" type="number" name="from" min="0" max="3000"> до <input id="filter-range" type="number" name="before" min="0" max="3000"></label></div>
+        <label for="filter-from">от<input id="filter-from" type="number" name="from" min="0" max="3000"></label><label for="filter-before"> до<input id="filter-before" type="number" name="before" min="0" max="3000"></label></div>
       <button class="button" type="submit">Показать</button>
     </form>
     <div class="sorting">
@@ -51,69 +51,85 @@
       <p>Сортировка:</p>
       <a class="money">по цене</a>
       <a class="type" href="#">по типу</a>
-      <a class="rating" href="#">по рейтингу</a>
+      <a class="like" href="#">по рейтингу</a>
+      <div class="up-down">
+        <a class="button-up" href="#" aria-label="Кнопка сортировки вверх">
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" data-name="button-up" viewBox="0 0 11 10">
+            <path fill="#231F20" d="M5.5 0L0 10h11z" /></svg>
+        </a><br>
+        <a class="button-down" href="#" aria-label="Кнопка сортировки вниз">
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+            <path fill="#231F20" d="M5.5 10L0 0h11" /></svg>
+        </a>
+      </div>
     </div>
     <h1 class="visually-hidden">Список гостиниц</h1>
     <ul class="catalog-list">
       <li class="catalog-item">
-        <article>
-          <h2><a href="catalog.html">Amara Resort & Spa</a></h2>
-          <img src="img/catalog-one.jpg" width="135" height="90" alt="Amara Resort & Spa">
-          <p>Гостиница от 4000 р.</p>
-          <a class="button-booking" href="catalog.html">Забронировать</a>
-          <a class="button-info" href="catalog.html">Подробнее</a>
-          <p class="number">Рейтинг<span class="value">8,5</span></p>
-          <ul>
-            <li class="rating"></li>
-            <li class="rating"></li>
-            <li class="rating"></li>
-            <li class="rating"></li>
-            <li class="rating"></li>
-          </ul>
-        </article>
+        <div class="amara">
+          <article>
+            <h2><a href="catalog.html">Amara Resort & Spa</a></h2>
+            <img src="img/catalog-one.jpg" width="135" height="90" alt="Amara Resort & Spa">
+            <p>Гостиница от 4000 р.</p>
+            <a class="button-info" href="catalog.html">Подробнее</a>
+            <a class="button-booking" href="catalog.html">Забронировать</a>
+            <p class="number">Рейтинг<span class="value">8,5</span></p>
+            <ul>
+              <li class="rating"></li>
+              <li class="rating"></li>
+              <li class="rating"></li>
+              <li class="rating"></li>
+              <li class="rating"></li>
+            </ul>
+          </article>
+        </div>
       </li>
       <li class="catalog-item">
-        <article>
-          <h2><a href="catalog.html">Desert quail inn</a></h2>
-          <img src="img/catalog-two.jpg" width="135" height="90" alt="Desert quail inn">
-          <p>Мотель от 3000 р.</p>
-          <a class="button-booking" href="catalog.html">Забронировать</a>
-          <a class="button-info" href="catalog.html">Подробнее</a>
-          <p>рейтинг<span class="value">8,9</span></p>
-          <ul>
-            <li class="rating"></li>
-            <li class="rating"></li>
-            <li class="rating"></li>
-            <li class="rating"></li>
-            <li class="rating"></li>
-          </ul>
-          </articl>
+        <div class="desert">
+          <article>
+            <h2><a href="catalog.html">Desert quail inn</a></h2>
+            <img src="img/catalog-two.jpg" width="135" height="90" alt="Desert quail inn">
+            <p>Мотель от 3000 р.</p>
+            <a class="button-info" href="catalog.html">Подробнее</a>
+            <a class="button-booking" href="catalog.html">Забронировать</a>
+            <p>рейтинг<span class="value">8,9</span></p>
+            <ul>
+              <li class="rating"></li>
+              <li class="rating"></li>
+              <li class="rating"></li>
+              <li class="rating"></li>
+              <li class="rating"></li>
+            </ul>
+            </articl>
+        </div>
       </li>
       <li class="catalog-item">
-        <article>
-          <h2><a href="catalog.html">Villas at poko diablo</a></h2>
-          <img src="img/catalog-three.jpg" width="135" height="90" alt="Villas at poko diablo">
-          <p>Апартаменты от 2000 р.</p>
-          <a class="button-booking" href="catalog.html">Забронировать</a>
-          <a class="button-info" href="catalog.html">Подробнее</a>
-          <p>Рейтинг<span class="value">9,2</span></p>
-          <ul>
-            <li class="rating"></li>
-            <li class="rating"></li>
-            <li class="rating"></li>
-            <li class="rating"></li>
-            <li class="rating"></li>
-          </ul>
-        </article>
+        <div class="villas">
+          <article>
+            <h2><a href="catalog.html">Villas at poko diablo</a></h2>
+            <img src="img/catalog-three.jpg" width="135" height="90" alt="Villas at poko diablo">
+            <p>Апартаменты от 2000 р.</p>
+            <a class="button-info" href="catalog.html">Подробнее</a>
+            <a class="button-booking" href="catalog.html">Забронировать</a>
+            <p>Рейтинг<span class="value">9,2</span></p>
+            <ul>
+              <li class="rating"></li>
+              <li class="rating"></li>
+              <li class="rating"></li>
+              <li class="rating"></li>
+              <li class="rating"></li>
+            </ul>
+          </article>
+        </div>
       </li>
     </ul>
   </main>
   <footer class="main-footer">
     <p>#VISITSEDONA</p>
-    <ul class="cosial">
-      <li><a class="cosial-fasebook" href="https://fasebook.com/VISITSEDONA" aria-label="Посeти Седону на Фейсбуке"></a></li>
-      <li><a class="cosial-twitter" href="https://twitter.com/VISITSEDONA" aria-label="Посетите Седону на Твиттере"></a></li>
-      <li><a class="cosial-youtube" href="https://youtube.com/VISITSEDONA" aria-label="Посетите Седону на Ютуб"></a></li>
+    <ul class="social">
+      <li><a class="social-fasebook" href="https://fasebook.com/VISITSEDONA" aria-label="Посeти Седону на Фейсбуке"></a></li>
+      <li><a class="social-twitter" href="https://twitter.com/VISITSEDONA" aria-label="Посетите Седону на Твиттере"></a></li>
+      <li><a class="social-youtube" href="https://youtube.com/VISITSEDONA" aria-label="Посетите Седону на Ютуб"></a></li>
     </ul>
     <p class="copyright">
       <b>Website by</b>
