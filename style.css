@@ -7,9 +7,9 @@ body {
  color: #333333;
  text-transform: uppercase;
  background-color: #f2f2f2;
- }
+}
 
- a {
+a {
  text-decoration: none;
 }
 
@@ -18,9 +18,8 @@ body {
  line-height: 26px;
  color: #000000;
  font-weight: bold;
-
  background-color: #ffffff;
- }
+}
 
 .site-navigation {
  list-style: none;
@@ -34,66 +33,66 @@ body {
 }
 
 .main-container {
-  background-image: url("img/background.jpg");
-  background-size: 1200px 773px;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-color: #ffffff;
-  padding-top: 600px;
+ background-image: url("img/background.jpg");
+ background-size: 1200px 773px;
+ background-position: top center;
+ background-repeat: no-repeat;
+ background-color: #ffffff;
+ padding-top: 600px;
 }
 
 .main-container h1 {
-  font-size: 21px;
-  line-height: 26px;
-  text-align: center;
+ font-size: 21px;
+ line-height: 26px;
+ text-align: center;
 }
 
 .main-container p {
-  font-size: 14px;
-  line-height: 26px;
-  text-align: center;
-  color: #333333;
+ font-size: 14px;
+ line-height: 26px;
+ text-align: center;
+ color: #333333;
 }
 
 .visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+ position: absolute;
+ clip: rect(0 0 0 0);
+ width: 1px;
+ height: 1px;
+ margin: -1px;
 }
 
 .features-list {
  list-style: none;
- }
+}
 
 .feature-item,
 .feature-color {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 14px;
-  line-height: 21px;
+ font-family: 'PT Sans', sans-serif;
+ font-size: 14px;
+ line-height: 21px;
 }
-  .feature-item {
-  color: #000000;
-  background-color: #ffffff;
- }
- .feature-color,
- .feature-color p{
-   color: #ffffff;
-   background-color: #81b3d2;
- }
+.feature-item {
+ color: #000000;
+ background-color: #ffffff;
+}
+.feature-color,
+.feature-color p{
+ color: #ffffff;
+ background-color: #81b3d2;
+}
  .feature-item h3,
  .feature-color h3 {
-  font-size: 21px;
-  line-height: 21px;
-   text-align: center;
- }
+ font-size: 21px;
+ line-height: 21px;
+ text-align: center;
+}
 
 .appointment h2{
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  color: #000000;
+ font-size: 30px;
+ line-height: 36px;
+ text-align: center;
+ color: #000000;
 }
 
 .search-form{
@@ -122,20 +121,21 @@ body {
  text-align: center;
 }
 .appointment a:focus {
-  color: #d1c9c6;
-  background-color: #766257;
+ color: #d1c9c6;
+ background-color: #766257;
 }
 .appointment a:hover {
-  color: #ffffff;
-  background-color: #604e44;
+ color: #ffffff;
+ background-color: #604e44;
 }
 .appointment a:active {
-  color: #71645b;
-  background-color: #503e32;
+ color: #71645b;
+ background-color: #503e32;
 }
 
 .button-search {
  font-family: 'PT Sans', sans-serif;
+ font-weight: bold;
  font-size: 21px;
  line-height: 26px;
  font-weight: bold;
@@ -143,7 +143,8 @@ body {
  background-color: #81b3d2;
  text-align: center;
  border: none;
- padding: 15px 150px;
+ padding: 20px 197px;
+ text-transform: uppercase;
 }
 .button-search:focus {
  color: #ffffff;
@@ -157,24 +158,27 @@ body {
  color: #96b8d3;
  background-color: #5596be;
 }
+
 .rating {
  background-image: url("img/star.svg");
  background-repeat: no-repeat;
 }
 
 .main-footer {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
-  color: #000000;
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: bold;
-  text-align: center;
-  background-color: #fdfdfd;
-  }
-
-.cosial-twitter {
- display: block;
+ font-family: 'PT Sans', sans-serif;
+ font-weight: bold;
+ color: #000000;
+ font-size: 21px;
+ line-height: 26px;
+ text-align: center;
+ background-color: #fdfdfd;
+}
+.social{
+ display: inline-block;
+ list-style-type: none;
+}
+.social-twitter{
+ display: inline-block;
  background-image: url("img/twitter.svg");
  background-repeat: no-repeat;
  height: 50px;
@@ -182,9 +186,10 @@ body {
  background-position: 50%;
  background-color: #81b3d2;
  background-size: 20px 16px;
+ margin-bottom: 20px;
 }
-.cosial-fasebook {
- display: block;
+.social-fasebook{
+ display: inline-block;
  background-image: url("img/fb-icon.svg");
  background-repeat: no-repeat;
  height: 50px;
@@ -192,9 +197,10 @@ body {
  background-position: 50%;
  background-color: #81b3d2;
  background-size: 20px 16px;
+ margin-bottom: 20px;
 }
-.cosial-youtube {
- display: block;
+.social-youtube{
+ display: inline-block;
  background-image: url("img/youtube.svg");
  background-repeat: no-repeat;
  height: 50px;
@@ -202,18 +208,19 @@ body {
  background-position: 50%;
  background-color: #81b3d2;
  background-size: 20px 16px;
+ margin-bottom: 40px;
 }
-.cosial a:focus{
-  color: #fefefe;
-  background-color: #82b3d3;
+.social a:focus{
+ color: #fefefe;
+ background-color: #82b3d3;
 }
-.cosial a:hover{
-  color: #ffffff;
-  background-color: #669ebf;
+.social a:hover{
+ color: #ffffff;
+ background-color: #669ebf;
 }
-.cosial a:active{
-  color: #89b7d1;
-  background-color: #5596be;
+.social a:active{
+ color: #89b7d1;
+ background-color: #5596be;
 }
 
 .copyright {
@@ -222,24 +229,23 @@ body {
  line-height: 26px;
  color: #000000;
  background-color: #fdfdfd;
- }
-
-.copyright a{
+}
+a.copyright{
  display: block;
  background-repeat: no-repeat;
- color: #000000;
+ color: #231f20;
  width: 115px;
  height: 41px;
 }
-.copyright a:focus {
-  color: #231f20;
-  }
-.copyright a:hover {
-  color: #82b3d1;
-  }
-.copyright a:active {
-  color: : #bdbbbc;
-  }
+a.copyright:focus{
+ color: #231f20;
+}
+a.copyright:hover{
+ color: #81b3d2;
+}
+a.copyright:active{
+ color: #bdbbbc;
+}
 
 .placeholder{
  background-image: url("img/catalog-background.png");
@@ -281,6 +287,7 @@ body {
 
 .sorting {
  display: block;
+ background-color: #ffffff;
 }
 .sorting h2{
  font-family: 'PT Sans', sans-serif;
@@ -307,30 +314,56 @@ a.type{
  line-height: 18px;
  color: #cacaca;
 }
-a.rating{
+a.like{
  font-family: 'PT Sans', sans-serif;
  font-size: 12px;
  line-height: 18px;
  color: #cacaca;
 }
-a.rating:focus{
+a.like:focus{
  color: #cacaca;
 }
-a.rating:hover{
+a.like:hover{
  color: #81b3d2;
 }
-a.rating:active{
+a.like:active{
  color: #000000;
 }
+a.button-up{
+ display:inline-block;
+ background-repeat: no-repeat;
+ color: #cacaca;
+ width: 11px;
+ height: 10px;
+}
+a.button-down{
+ display:inline-block;
+ background-repeat: no-repeat;
+ color: #81b3d2;
+ width: 11px;
+ height: 10px;
+}
+a.button-up:focus{
+ color: #cacaca;
+}
+a.button-up:hover{
+ color: #231f20;
+}
+a.button-up:active{
+ color: #81b3d2;
+}
 
-
+.catalog-list{
+ display: inline-block;
+ list-style-type: none;
+}
 .catalog-item p {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
  line-height: 21px;
  text-align: center;
  color: #000000;
-  }
+}
 .catalog-item a {
   font-family: 'PT Sans', sans-serif;
   font-size: 21px;
@@ -338,20 +371,26 @@ a.rating:active{
   font-weight: bold;
   text-align: center;
   color: #000000;
-  }
+}
 .catalog-item a:focus{
  color: #000000;
- }
+}
 .catalog-item a:hover{
  color: #81b3d2;
 }
 .catalog-item a:active{
  color: #cacaca;
- }
+}
+
+.amara,
+.desert,
+.villas{
+  background-color: #ffffff;
+}
 
 a.button-booking
 a.button-info{
- font-family:initial;
+ font-family: initial;
  color: initial;
  font-size: initial;
 }
@@ -362,41 +401,41 @@ a.button-booking{
  font-weight: bold;
  text-align: center;
  color: #ffffff;
- background-color: #81b3d2;
+ background-color: #766357;
 }
 a.button-booking:focus{
  color: #ffffff;
- background-color: #81b3d2;
+ background-color: #766357;
 }
 a.button-booking:hover{
  color: #ffffff;
- background-color: #669ec0;
+ background-color: #604e43;
 }
 a.button-booking:active{
  color: #94b9d2;
- background-color: #5496bd;
+ background-color: #503e33;
 }
 
 a.button-info{
-  font-family: 'PT Sans', sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: bold;
-  text-align: center;
-  color: #ffffff;
-  background-color: #604e43;
+ font-family: 'PT Sans', sans-serif;
+ font-size: 14px;
+ line-height: 21px;
+ font-weight: bold;
+ text-align: center;
+ color: #ffffff;
+ background-color: #81b3d2;
 }
 a.button-info:focus{
  color: #ffffff;
- background-color: #766357;
+ background-color: #81b3d2;
 }
 a.button-info:hover{
  color: #ffffff;
- background-color: #604e43;
+ background-color: #669ec0;
 }
 a.button-info:active{
  color: #928a85;
- background-color: #503e33;
+ background-color: #5496bd;
 }
 p.number{
  font-family: 'PT Sans', sans-serif;
@@ -405,4 +444,4 @@ p.number{
  text-align: center;
  color: #000000;
  background-color: #f2f2f2;
- }
+}
