@@ -254,8 +254,8 @@ a.copyright:active{
  background-position: top;
  font-family: 'PT Sans', sans-serif;
  color: #ffffff;
- font-size: : 14px;
- line-height: : 21px;
+ font-size: 14px;
+ line-height: 21px;
 }
 .filter-container,
 .filter-housing,
@@ -263,15 +263,15 @@ a.copyright:active{
  font-family: 'PT Sans', sans-serif;
  font-weight: bold;
  color: #ffffff;
- font-size: : 16px;
- line-height: : 21px;
+ font-size: 16px;
+ line-height: 21px;
 }
 .money input{
  font-family: 'PT Sans', sans-serif;
  background-color: transparent;
  color: #ffffff;
- font-size: : 16px;
- line-height: : 21px;
+ font-size: 16px;
+ line-height: 21px;
 }
 .placeholder button{
  font-family: 'PT Sans', sans-serif;
@@ -329,28 +329,32 @@ a.like:hover{
 a.like:active{
  color: #000000;
 }
-a.button-up{
+
+path{
+ fill: #cacaca;
+}
+.button-up{
  display:inline-block;
  background-repeat: no-repeat;
- color: #cacaca;
+ color: #ffffff;
  width: 11px;
  height: 10px;
 }
-a.button-down{
+.button-down{
  display:inline-block;
  background-repeat: no-repeat;
  color: #81b3d2;
  width: 11px;
  height: 10px;
 }
-a.button-up:focus{
- color: #cacaca;
+.placeholder path:focus{
+ fill: #cacaca;
 }
-a.button-up:hover{
- color: #231f20;
+.placeholder path:hover{
+ fill: #231f20;
 }
-a.button-up:active{
- color: #81b3d2;
+.placeholder path:active{
+ fill: #81b3d2;
 }
 
 .catalog-list{
@@ -388,7 +392,7 @@ a.button-up:active{
   background-color: #ffffff;
 }
 
-a.button-booking
+a.button-booking,
 a.button-info{
  font-family: initial;
  color: initial;
