@@ -13,19 +13,15 @@
   <div class="container">
     <header class="main-header">
       <nav class="main-navigation">
-        <ul class="site-navigation">
-          <div class="start">
-            <li><a href="info.html">Информация</a></li>
-            <li><a href="media.html">Фото и Видео</a></li>
-          </div>
-          <div class="end">
-            <li><a href="karta-shtata.html">Карта штата</a></li>
-            <li><a href="catalog.html">Гостиницы</a></li>
-          </div>
-        </ul>
         <a class="container-logo" href="index.html">
           <img src="img/logo.png" width="140" heigh="72" alt="Логотип городка Седона">
         </a>
+          <ul class="site-navigation">
+            <li><a href="info.html">Информация</a></li>
+            <li><a href="media.html">Фото и Видео</a></li>
+            <li><a href="karta-shtata.html">Карта штата</a></li>
+            <li><a href="catalog.html">Гостиницы</a></li>
+          </ul>
       </nav>
     </header>
     <main class="main-container">
@@ -85,25 +81,6 @@
               <p>Большинство едет в Гранд Каньон и толпится там</p>
             </li>
           </div>
-          <!--  Перенесла блок <li class="feature-item">
-            <ul class="feature-additional">
-              <li class="feature-addit">
-                <img src="img/icon-1.svg" width="75" height="72">
-                <h3>Жилье</h3>
-                <p>Рекомендуем пожить в настоящем отеле, все как в кино</p>
-              </li>
-              <li class="feature-addit">
-                <img src="img/icon-3.svg" width="74" height="70">
-                <h3>Еда</h3>
-                <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь</p>
-              </li>
-              <li class="feature-addit">
-                <img src="img/icon-2.svg" width="64" height="76">
-                <h3>Сувениры</h3>
-                <p>Не только китайского, но и местного производства</p>
-              </li>
-            </ul>
-          </li> -->
         </ul>
       </section>
       <section class="appointment">
@@ -121,10 +98,10 @@
             </p>
             <p class="search-date">
               <label for="adults">Взослые</label>
-              <input id="adult" type="number" name="search-adult" min="0" max="10">
+              <input id="adults" type="number" name="search-adult" min="0" max="10">
             </p>
             <p class="search-date">
-              <label for="сhildren">Дети</label>
+              <label for="children">Дети</label>
               <input id="children" type="number" name="search-children" min="0" max="10">
             </p>
             <button class="button-search" type="submit">Найти</button>
