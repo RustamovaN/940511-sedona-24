@@ -254,9 +254,6 @@ a {
  margin-bottom: 30px;
 }
 .search-form {
- font-size: 14px;
- line-height: 26px;
- font-weight: bold;
  color: #000000;
  background-color: #ffffff;
  text-align: center;
@@ -267,15 +264,42 @@ a {
  position: absolute;
  margin-left: 313px;
 }
-.search-form input {
+.search-date input {
  font-family: 'PT Sans', sans-serif;
  background-color: #f2f2f2;
  background-image: url(../img/calendar.svg);
  background-repeat: no-repeat;
  background-position: right;
+ border: 0;
+ width: 334px;
+ height: 38px;
 }
-.search-date {
- line-height: 100px;
+.search-person input{
+ background-color: #f2f2f2;
+ border: 0;
+ width: 115px;
+ height: 34px;
+}
+p.search-date,
+p.search-person {
+ font-family: 'PT Sans', sans-serif;
+ font-weight: bold;
+ font-size: 14px;
+ line-height: 26px;
+}
+ p.search-date {
+ padding-top: 60px;
+ padding-bottom: 0;
+}
+}
+p.search-person{
+ padding-top: 47px;
+ padding-bottom: 0;
+}
+.person{
+ display: flex;
+ flex-direction: row;
+ padding-left: 73px;
 }
 .button-search {
  font-family: 'PT Sans', sans-serif;
