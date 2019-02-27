@@ -151,19 +151,22 @@ a {
  display: flex;
  flex-direction: row;
  list-style-type: none;
+ padding-top: 59px;
+ padding-left: 0;
 }
 .feature-additional p {
  padding-top: 21px;
  padding-bottom: 75px;
 }
-.feature-additional h3 {
-  padding-top: 161px;
+/*
+.feature-additional h3{
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
   font-size: 21px;
   line-height: 21px;
   text-align: center;
 }
+*/
 .feature-housing {
  background-image: url("../img/icon-1.svg");
  background-repeat: no-repeat;
