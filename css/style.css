@@ -86,12 +86,14 @@ a {
  text-align: center;
  padding-left: 380px;
  padding-right: 380px;
+ margin: 0;
 }
 .main-container p {
  font-size: 14px;
  line-height: 26px;
  text-align: center;
  color: #333333;
+ margin: 0;
 }
 
 .visually-hidden {
@@ -145,6 +147,7 @@ padding-right: 50px;
  padding-left: 138px;
  padding-right: 138px;
  padding-top: 42px;
+ margin: 0;
 }
 .one-block p,
 .two-block p {
@@ -152,6 +155,7 @@ padding-right: 50px;
  background-color: #81b3d2;
  padding-left: 60px;
  padding-right: 60px;
+ margin: 0;
 }
 
 .feature-housing {
@@ -181,6 +185,7 @@ padding-right: 50px;
  line-height: 21px;
  text-align: center;
  padding-top: 43px;
+ margin: 0;
 }
 .feature-item {
 width: calc(100%/3);
@@ -189,6 +194,7 @@ width: calc(100%/3);
  text-align: center;
  padding-left: 140px;
  padding-right: 120px;
+ margin: 0;
 }
 .feature-item p {
  font-family: 'PT Sans', sans-serif;
@@ -197,6 +203,7 @@ width: calc(100%/3);
  color: #000000;
  text-align: center;
  padding-left: 95px;
+ margin: 0;
 }
 .three-block {
  background-color: #eeeeee;
@@ -243,6 +250,7 @@ width: calc(100%/3);
  line-height: 36px;
  text-align: center;
  color: #000000;
+ margin: 0;
 }
 .search-form {
  font-size: 14px;
@@ -380,8 +388,7 @@ width: calc(100%/3);
  padding-right: 100px;
  padding-bottom: 36px;
  height: 120px;
-
-
+ margin: 0;
 }
 .copyright a {
  background-repeat: no-repeat;
@@ -473,6 +480,7 @@ a.copyright:active {
  line-height: 26px;
  color: #000000;
  padding-top: 26px;
+ margin: 0;
 }
 .sorting p {
  font-family: 'PT Sans', sans-serif;
@@ -481,6 +489,7 @@ a.copyright:active {
  color: #000000;
  padding-left: 46px;
  padding-top: 36px;
+ margin: 0;
 }
 a.money {
  font-family: 'PT Sans', sans-serif;
@@ -677,4 +686,5 @@ p.number {
  text-align: center;
  color: #000000;
  background-color: #f2f2f2;
+ margin: 0;
 }
