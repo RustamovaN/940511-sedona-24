@@ -140,7 +140,8 @@ a {
  color: #ffffff;
  background-color: #81b3d2;
  margin: 0;
- padding: 0;
+ padding-top: 20px;
+ padding-bottom: 0;
 }
 .feature-additional {
  font-family: 'PT Sans', sans-serif;
