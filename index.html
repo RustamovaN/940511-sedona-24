@@ -93,14 +93,19 @@
               <input id="date-departure" type="text" name="calendar" value="24 апреля 2017">
             </p>
             <div class="person">
-            <p class="search-person">
-              <label for="adults">Взослые:</label>
-              <input id="adults" type="number" name="search-adult" min="0" max="10">
-            </p>
-            <p class="search-person">
-            <label for="children">Дети:</label>
-              <input id="children" type="number" name="search-children" min="0" max="10">
-            </p></div>
+              <p class="search-person">
+                <label for="adults">Взослые:</label>
+                <span class="minus">-</span>
+                <input id="adults" type="number" name="search-adult" min="0" max="10">
+                <span class="plus">+</span>
+              </p>
+              <p class="search-person">
+                <label for="children">Дети:</label>
+                <span class="minus">-</span>
+                <input id="children" type="number" name="search-children" min="0" max="10">
+                <span class="plus">+</span>
+              </p>
+            </div>
             <button class="button-search" type="submit">Найти</button>
           </form>
           <img src="img/map.jpg" width="1200" height="593" alt="Карта, на которой покажем вам лучшие предложения гостиниц в Седоне">
