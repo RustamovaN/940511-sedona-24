@@ -490,6 +490,19 @@ a.copyright:active {
  color: #ffffff;
  font-size: 16px;
  line-height: 21px;
+ width: 145px;
+ border-radius: 4px;
+}
+/*width: 160px;*/
+
+.sorting-radius{
+ display: flex;
+}
+.radius {
+ width: 22px;
+ height: 22px;
+ background-color: #ffffff;
+ border-radius: 50%;
 }
 .placeholder button {
  font-family: 'PT Sans', sans-serif;
@@ -562,16 +575,6 @@ a.like:hover {
 }
 a.like:active {
  color: #000000;
-}
-
-.sorting-radius{
- display: flex;
-}
-.radius {
- width: 22px;
- height: 22px;
- background-color: #ffffff;
- border-radius: 50%;
 }
 
 path {
