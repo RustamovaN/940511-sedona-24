@@ -494,7 +494,9 @@ a.copyright:active {
  border-radius: 4px;
 }
 /*width: 160px;*/
-
+.info input{
+ background-color: transparent;
+}
 .sorting-radius{
  display: flex;
 }
@@ -548,7 +550,7 @@ a.money {
  line-height: 18px;
  color: #81b3d2;
  padding-left: 38px;
-  padding-top: 50px;
+  padding-top: 37px;
 }
 a.type {
  font-family: 'PT Sans', sans-serif;
@@ -556,7 +558,7 @@ a.type {
  line-height: 18px;
  color: #cacaca;
  padding-left: 33px;
- padding-top: 50px;
+ padding-top: 37px;
  border-bottom-style: 1px dotted #cacaca;
 }
 a.like {
@@ -565,7 +567,7 @@ a.like {
  line-height: 18px;
  color: #cacaca;
  padding-left: 33px;
- padding-top: 50px;
+ padding-top: 37px;
  border-bottom-style: 1px dotted #cacaca;
 }
 a.like:focus {
