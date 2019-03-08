@@ -40,9 +40,9 @@ a {
  font-family: 'PT Sans', sans-serif;
  font-weight: bold;
  font-size: 14px;
- line-height: 26px;
+ line-height: 22px;
  margin: 0;
- padding: 0 73px;
+ padding: 0 72px;
  display: flex;
  flex-direction: row;
  flex-wrap: wrap;
@@ -75,10 +75,10 @@ a {
 
 .main-container {
  background-image: url("../img/background.jpg");
- background-position: -1px 0;
+ background-position: -1px -56px;
  background-repeat: no-repeat;
  background-color: #ffffff;
- padding-top: 600px;
+ padding-top: 516px;
 }
 .main-container h1 {
  font-size: 21px;
