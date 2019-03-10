@@ -52,10 +52,8 @@ a {
 
 }
 .site-navigation a {
- display: block;
  color: #000000;
-
- }
+}
 .site-navigation li:nth-child(4n+1),
 .site-navigation li:nth-child(4n+2){
   text-align: left;
@@ -366,6 +364,7 @@ p.search-person{
  margin-bottom: 48px;
  width: 400px;
  text-align: center;
+ background-color: #ffffff;
 }
 .social {
  display: flex;
@@ -428,7 +427,7 @@ p.search-person{
  font-size: 14px;
  line-height: 26px;
  color: #000000;
- background-color: #fdfdfd;
+ background-color: #ffffff;
  width: 400px;
  margin: 0;
  text-align: center;
@@ -473,39 +472,89 @@ a.copyright:active {
  margin: 0;
 }
 
-.info,
-.price {
- display: flex;
- flex-direction: column;
- width: 400px;
- height: 220px;
- margin: 0;
- padding-top: 26px;
- padding-left: 73px;
-}
-
 .filter-container,
-.filter-housing,
-.filter-price {
+.filter-housing {
  font-family: 'PT Sans', sans-serif;
  font-weight: bold;
  color: #ffffff;
  font-size: 16px;
  line-height: 21px;
 }
+
+.info,
+.price {
+ font-family: 'PT Sans', sans-serif;
+ font-weight: bold;
+ color: #ffffff;
+ width: 330px;
+ margin: 0;
+ padding-top: 26px;
+ padding-left: 73px;
+ text-transform: uppercase;
+}
+
+.filter-price {
+  margin-bottom: 9px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.money {
+ position: relative;
+ height: 36px;
+ margin-bottom: 20px;
+ border: 2px solid #ffffff;
+ border-radius: 2px;
+}
+.money::after {
+ content: "";
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ width: 2px;
+ height: 22px;
+ background: #ffffff;
+ transform: translate(-50%, -50%);
+}
+
+.range-controls {
+ position: relative;
+ margin-bottom: 32px;
+}
+.range-controls .scale {
+ height: 2px;
+ background: rgba(255, 255, 255, 0.3);
+}
+
+.money .filter-from,
+.money .filter-before {
+ width: 90px;
+ padding-left: 65px;
+}
+
 .money input {
  font-family: 'PT Sans', sans-serif;
  background-color: transparent;
  color: #ffffff;
- font-size: 16px;
- line-height: 21px;
- width: 145px;
- border-radius: 4px;
+ font-size: 14px;
+ line-height: 38px;
+ display: inline-block;
+ vertical-align: top;
+ cursor: pointer;
+ width: 50px;
+ margin: 0;
+ color: inherit;
+ font: inherit;
+ background: none;
+ border: none;
 }
-/*width: 160px;*/
+
 .info input{
  background-color: transparent;
 }
+
+
 .sorting-radius{
  display: flex;
 }
@@ -515,6 +564,7 @@ a.copyright:active {
  background-color: #ffffff;
  border-radius: 50%;
 }
+
 .placeholder button {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
