@@ -81,8 +81,10 @@ a {
  padding-top: 516px;
 }
 .main-container h1 {
+ font-family: 'PT Sans', sans-serif;
+ font-weight: bold;
  font-size: 21px;
- line-height: 26px;
+ line-height: 27px;
  text-align: center;
  padding-left: 380px;
  padding-right: 380px;
