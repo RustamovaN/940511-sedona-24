@@ -526,14 +526,7 @@ a.copyright:active {
  height: 2px;
  background: rgba(255, 255, 255, 0.3);
 }
-
-.money .filter-from,
-.money .filter-before {
- width: 90px;
- padding-left: 65px;
-}
-
-.money input {
+.money {
  font-family: 'PT Sans', sans-serif;
  background-color: transparent;
  color: #ffffff;
@@ -542,6 +535,8 @@ a.copyright:active {
  display: inline-block;
  vertical-align: top;
  cursor: pointer;
+}
+.money input {
  width: 50px;
  margin: 0;
  color: inherit;
@@ -549,12 +544,17 @@ a.copyright:active {
  background: none;
  border: none;
 }
+.money .filter-from,
+.money .filter-before {
+ width: 90px;
+ padding-left: 65px;
+}
 
 .info input{
  background-color: transparent;
 }
 
-
+/*
 .sorting-radius{
  display: flex;
 }
@@ -564,7 +564,7 @@ a.copyright:active {
  background-color: #ffffff;
  border-radius: 50%;
 }
-
+*/
 .placeholder button {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
