@@ -58,15 +58,20 @@
           </div>
           </p>
         </div>
+        
         <div class="price">
-          <p class="filter-price">Стоимость в сутки (Р):</p>
+          <div class="filter-price">Стоимость в сутки (Р):</div>
           <div class="money">
-            <label for="filter-from">от<input id="filter-from" type="number" name="from" min="0" max="3000"></label><label for="filter-before"><input id="filter-before" type="number" name="before" min="0" max="3000">до</label>
+            <label class="filter-from">от <input type="text" name="filter-from" value="0"></label>
+            <label class="filter-before">до <input type="text" name="filter-before" value="3000"></label>
           </div>
-          <div class="sorting-radius">
-            <div class="radius"></div>
-            <hr width="80%" align="texttop" size="1" color="#ffffff" />
-            <div class="radius"></div>
+
+          <div class="range">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
           </div>
           <button class="button" type="submit">Показать</button>
         </div>
