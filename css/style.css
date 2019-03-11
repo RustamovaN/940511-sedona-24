@@ -189,12 +189,16 @@ h3.feature-additional {
  background-repeat: no-repeat;
  background-size: 75px 72px;
  background-position: top center;
+ line-height: 26px;
+ padding-top: 55px;
 }
 .feature-food {
  background-image: url("../img/icon-3.svg");
  background-repeat: no-repeat;
- background-size: 74px 70px;
- background-position: top center;
+ background-size: 75px 75px;
+ background-position: 160px 0;
+ line-height: 21px;
+ padding-top: 55px;
  }
 .feature-present {
  background-image: url("../img/icon-2.svg");
