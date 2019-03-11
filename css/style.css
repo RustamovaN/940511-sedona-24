@@ -172,10 +172,12 @@ a {
  padding-left: 0;
 }
 .feature-additional p {
- padding-top: 21px;
- padding-bottom: 75px;
+ font-family: 'PT Sans', sans-serif;
+ font-size: 14px;
+ line-height: 21px;
+ padding: 24px 55px 82px;
 }
-
+/*  не подклчается!!!*/
 h3.feature-additional {
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
@@ -188,15 +190,17 @@ h3.feature-additional {
  background-image: url("../img/icon-1.svg");
  background-repeat: no-repeat;
  background-size: 75px 72px;
- background-position: top center;
+ background-position: 162px 0;
+ width: 400px;
  line-height: 26px;
  padding-top: 55px;
 }
 .feature-food {
  background-image: url("../img/icon-3.svg");
  background-repeat: no-repeat;
- background-size: 75px 75px;
- background-position: 160px 0;
+ background-size: 74px 70px;
+ background-position: 163px 3px;
+ width: 400px;
  line-height: 21px;
  padding-top: 55px;
  }
@@ -204,7 +208,9 @@ h3.feature-additional {
  background-image: url("../img/icon-2.svg");
  background-repeat: no-repeat;
  background-size: 64px 76px;
- background-position: top center;
+ background-position: 168px 0;
+ width: 400px;
+ padding-top: 55px;
 }
 .feature-group h3{
  font-family: 'PT Sans', sans-serif;
