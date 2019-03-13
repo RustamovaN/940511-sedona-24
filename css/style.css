@@ -141,22 +141,39 @@ a {
  width: calc(100%/3);
  text-align: center;
 }
-.one-block h3,
-.two-block h3 {
+.one-block h3 {
  border: none;
  margin: 0;
- padding: 0 0;
+ padding-top: 48px;
+ padding-left: 111px;
+ padding-right: 111px;
 }
-.one-block p,
-.two-block p {
+.two-block h3 {
+ padding-top: 45px;
+ padding-left: 125px;
+ padding-right: 124px;
+}
+
+.one-block p {
  font-family: 'PT Sans', sans-serif;
  color: #ffffff;
  background-color: #81b3d2;
  margin: 0;
  line-height: 22px;
- padding-top: 21px;
+ padding-top: 22px;
  padding-left: 56px;
  padding-right: 56px;
+ padding-bottom: 0;
+}
+.two-block p {
+  font-family: 'PT Sans', sans-serif;
+ color: #ffffff;
+ background-color: #81b3d2;
+ margin: 0;
+ line-height: 22px;
+ padding-top: 22px;
+ padding-left: 42px;
+ padding-right: 42px;
  padding-bottom: 0;
 }
 .feature-additional {
@@ -184,6 +201,7 @@ h3.feature-additional {
   font-size: 21px;
   line-height: 21px;
   text-align: center;
+  padding-top: 48px;
 }
 
 .feature-housing {
@@ -193,7 +211,7 @@ h3.feature-additional {
  background-position: 162px 0;
  width: 400px;
  line-height: 26px;
- padding-top: 55px;
+ padding-top: 104px;
 }
 .feature-food {
  background-image: url("../img/icon-3.svg");
@@ -202,7 +220,7 @@ h3.feature-additional {
  background-position: 163px 3px;
  width: 400px;
  line-height: 21px;
- padding-top: 55px;
+ padding-top: 104px;
  }
 .feature-present {
  background-image: url("../img/icon-2.svg");
@@ -210,7 +228,7 @@ h3.feature-additional {
  background-size: 64px 76px;
  background-position: 168px 0;
  width: 400px;
- padding-top: 55px;
+ padding-top: 104px;
 }
 .feature-group h3{
  font-family: 'PT Sans', sans-serif;
@@ -218,10 +236,7 @@ h3.feature-additional {
  font-size: 21px;
  line-height: 21px;
  text-align: center;
- padding-top: 48px;
  margin: 0;
- padding-left: 111px;
- padding-right: 111px;
 }
 .feature-item h3 {
  font-family: 'PT Sans', sans-serif;
@@ -229,8 +244,10 @@ h3.feature-additional {
  font-size: 21px;
  line-height: 21px;
  text-align: center;
- padding-top: 43px;
+ padding-top: 46px;
  margin: 0;
+ padding-left: 130px;
+ padding-right: 130px;
 }
 .feature-item {
  width: calc(100%/3);
@@ -289,7 +306,7 @@ h3.feature-additional {
  text-align: center;
  color: #000000;
  margin: 0;
- padding-top: 50px;
+ padding-top: 49px;
  padding-bottom: 28px;
 }
 p.page-header{
