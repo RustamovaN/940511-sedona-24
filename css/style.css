@@ -581,7 +581,6 @@ p.search-adults {
 }
 .filter {
  display: flex;
- justify-content: space-between;
  padding: 0;
  margin: 0;
 }
@@ -593,40 +592,42 @@ p.search-adults {
  color: #ffffff;
  font-size: 16px;
  line-height: 21px;
+ margin: 0;
 }
 
 .info {
  font-family: 'PT Sans', sans-serif;
  font-weight: bold;
  color: #ffffff;
- width: 330px;
+ width: 255px;
  margin: 0;
  padding-top: 26px;
- padding-left: 73px;
+ padding-left: 72px;
  text-transform: uppercase;
 }
 
 .price {
- font-weight: 400;
  font-family: 'PT Sans', sans-serif;
  font-weight: bold;
  width: 330px;
  color: #ffffff;
  text-transform: uppercase;
+ margin-left: 300px;
 }
 .filter-price{
- margin-bottom: 9px;
- font-weight: 600;
+ padding-top: 18px;
  font-size: 16px;
- line-height: 21px;
+ line-height: 36px;
 }
 .money{
  position: relative;
  height: 36px;
  font-size: 0;
+ margin-top: 3px;
  margin-bottom: 20px;
  border: 2px solid #ffffff;
  border-radius: 2px;
+ width: 318px;
 }
 .money label{
  display: inline-block;
@@ -666,6 +667,7 @@ p.search-adults {
 .range .scale {
  height: 2px;
  background: rgba(255, 255, 255, 0.3);
+ width: 318px;
 }
 .range .bar {
  width: 80%;
@@ -688,9 +690,13 @@ p.search-adults {
 }
 .range-toggle-min {
  left: 0;
+ width: 20px;
+ height: 20px;
 }
 .range-toggle-max {
- left: 80%;
+ left: 76%;
+ width: 21px;
+ height: 21px;
 }
 
 .info input{
@@ -699,8 +705,8 @@ p.search-adults {
 
 .placeholder button {
  display: block;
- margin: 0 auto;
- padding: 6px 35px;
+ margin-left: 84px;
+ padding: 6px 34px;
  font-size: 14px;
  line-height: 20px;
  color: #ffffff;
