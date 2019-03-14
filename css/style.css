@@ -593,17 +593,27 @@ p.search-adults {
  font-size: 16px;
  line-height: 21px;
  margin: 0;
+ padding-bottom: 24px;
+}
+
+.input-check{
+ font-family: 'PT Sans', sans-serif;
+ font-size: 14px;
+ line-height: 21px;
+ padding-bottom: 15px;
+}
+.info input{
+ width: 24px;
+ height: 24px;
+
 }
 
 .info {
- font-family: 'PT Sans', sans-serif;
- font-weight: bold;
- color: #ffffff;
  width: 255px;
  margin: 0;
  padding-top: 26px;
  padding-left: 72px;
- text-transform: uppercase;
+ text-transform: inherit;
 }
 
 .price {
@@ -697,15 +707,6 @@ p.search-adults {
  left: 76%;
  width: 21px;
  height: 21px;
-}
-
-.input-check{
-
-}
-.info input{
- width: 24px;
- height: 24px;
-
 }
 
 .placeholder button {
