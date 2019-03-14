@@ -534,31 +534,35 @@ p.search-adults {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
  line-height: 26px;
- color: #000000;
+ color: #231f20;
  background-color: #ffffff;
  width: 400px;
  margin: 0;
  text-align: center;
- padding-top: 40px;
- padding-bottom: 40px;
+ display: flex;
+}
+.copyright p {
+ text-align: end;
+ width: 177px;
 }
 .copyright a {
  background-repeat: no-repeat;
  color: #231f20;
  width: 115px;
  height: 41px;
- margin-top: 48px;
- margin-bottom: 50px;
+ margin-top: 38px;
+ padding-left: 9px;
 }
-a.copyright:focus {
+.copyright a:focus {
  color: #231f20;
 }
-a.copyright:hover {
+.copyright a:hover {
  color: #81b3d2;
 }
-a.copyright:active {
+.copyright a:active {
  color: #bdbbbc;
 }
+
 
 .placeholder {
  background-image: url("../img/catalog-background.png");
