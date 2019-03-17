@@ -837,17 +837,22 @@ button-down.placeholder path:actived {
  fill: #81b3d2;
 }
 /* добелать цвет*/
-.rating {
- background-image: url("../img/star.svg");
- background-repeat: no-repeat;
-}
-.value-rating {
+
+.value-rating  {
  display: flex;
  flex-direction: column;
 }
 .rating-sorting {
- display: inline;
-
+ display: flex;
+ flex-direction: row;
+}
+/*.rating-sorting {
+ display: flex;
+ flex-direction: row; !?! */
+.rating-sorting li {
+ background-image: url("../img/star.svg");
+ background-repeat: no-repeat;
+ background-position: left;
 }
 .info-amara,
 .info-Desert,
