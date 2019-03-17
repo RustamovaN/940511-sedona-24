@@ -841,18 +841,22 @@ button-down.placeholder path:actived {
 .value-rating  {
  display: flex;
  flex-direction: column;
+ padding-top: 2px;
 }
 .rating-sorting {
  display: flex;
  flex-direction: row;
+ margin-left: 502px;
 }
-/*.rating-sorting {
- display: flex;
- flex-direction: row; !?! */
+
 .rating-sorting li {
  background-image: url("../img/star.svg");
  background-repeat: no-repeat;
  background-position: left;
+ width: 18px;
+ height: 17px;
+ list-style: none;
+ padding-left: 25px;
 }
 .info-amara,
 .info-Desert,
@@ -873,6 +877,9 @@ button-down.placeholder path:actived {
 .Desert h2,
 .Villas h2 {
  margin: 0;
+}
+.amara-4000 {
+ padding-left: 36px;
 }
 .hotels {
  background-color: #ffffff;
@@ -969,6 +976,11 @@ p.number {
  text-align: center;
  color: #000000;
  background-color: #f2f2f2;
- margin: 0;
- padding: 0;
+ width: 105px;
+ height: 30px;
+ margin-left: 526px;
+ margin-top: 46px;
+}
+.value {
+ padding-left: 2px;
 }
