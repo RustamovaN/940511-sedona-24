@@ -640,7 +640,7 @@ input[type="checkbox"]:checked + label::before {
  font-size: 16px;
  line-height: 36px;
 }
-.money{
+.money {
  position: relative;
  height: 36px;
  font-size: 0;
@@ -650,7 +650,7 @@ input[type="checkbox"]:checked + label::before {
  border-radius: 2px;
  width: 318px;
 }
-.money label{
+.money label {
  display: inline-block;
  font-size: 14px;
  line-height: 38px;
@@ -742,7 +742,7 @@ input[type="checkbox"]:checked + label::before {
  display: flex;
  background-color: #ffffff;
  padding-left: 71px;
- padding-bottom: 30px;
+ padding-bottom: 24px;
 }
 
 .sorting h2 {
@@ -753,43 +753,45 @@ input[type="checkbox"]:checked + label::before {
  color: #000000;
  padding-top: 29px;
  margin: 0;
- width: 350px;
+ width: 120px;
 }
 .sorting p {
  font-family: 'PT Sans', sans-serif;
  font-size: 12px;
  line-height: 18px;
  color: #000000;
- padding-left: 34px;
+ padding-left: 45px;
  padding-top: 36px;
  margin: 0;
 }
-a.money {
+a.check {
  font-family: 'PT Sans', sans-serif;
  font-size: 12px;
  line-height: 18px;
  color: #81b3d2;
- padding-left: 38px;
- padding-top: 34px;
- margin: 0; 
+ padding-left: 39px;
+ padding-top: 36px;
+ margin: 0;
 }
 a.type {
  font-family: 'PT Sans', sans-serif;
  font-size: 12px;
  line-height: 18px;
  color: #cacaca;
- padding-left: 33px;
+ margin-left: 33px;
  padding-top: 37px;
- border-bottom-style: 1px dotted #cacaca;
+ border-bottom: 1px dotted #cacaca;
+ height: 53px;
 }
 a.like {
  font-family: 'PT Sans', sans-serif;
  font-size: 12px;
  line-height: 18px;
  color: #cacaca;
- padding-left: 33px;
+ margin-left: 33px;
  padding-top: 37px;
- border-bottom-style: 1px dotted #cacaca;
+ border-bottom: 1px dotted #cacaca;
+ height: 53px;
 }
 a.like:focus {
  color: #cacaca;
@@ -810,8 +812,8 @@ path {
  color: #ffffff;
  width: 11px;
  height: 10px;
- padding-top: 40px;
- padding-left: 500px;
+ padding-top: 34px;
+ margin-left: 504px;
 }
 .button-down {
  display:inline-block;
@@ -819,9 +821,8 @@ path {
  color: #81b3d2;
  width: 11px;
  height: 10px;
- padding-top: 40px;
- padding-left: 20px;
- padding-right: 73px;
+ padding-top: 34px;
+ padding-left: 12px;
 }
 .placeholder path:focus {
  fill: #cacaca;
@@ -832,10 +833,10 @@ path {
 .placeholder path:active {
  fill: #81b3d2;
 }
-button-down.placeholder path {
+button-down.placeholder path:actived {
  fill: #81b3d2;
 }
-
+/* добелать цвет*/
 .rating {
  background-image: url("../img/star.svg");
  background-repeat: no-repeat;
@@ -855,7 +856,7 @@ button-down.placeholder path {
 }
 .catalog-list {
  list-style-type: none;
- padding-left: 73px;
+ padding-left: 71px;
  margin: 0;
 }
 .catalog-item p {
