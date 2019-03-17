@@ -843,8 +843,7 @@ button-down.placeholder path:actived {
 }
 .value-rating {
  display: flex;
- flex-direction: column-reverse;
- padding-left: 520px;
+ flex-direction: column;
 }
 .rating-sorting {
  display: inline;
@@ -966,4 +965,5 @@ p.number {
  color: #000000;
  background-color: #f2f2f2;
  margin: 0;
+ padding: 0;
 }
