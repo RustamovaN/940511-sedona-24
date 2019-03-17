@@ -841,16 +841,34 @@ button-down.placeholder path:actived {
  background-image: url("../img/star.svg");
  background-repeat: no-repeat;
 }
-.info-amara,
-.info-Desert,
-.info-Villas {
- display: flex;
- padding-top: 18px;
-}
 .value-rating {
  display: flex;
  flex-direction: column-reverse;
  padding-left: 520px;
+}
+.rating-sorting {
+ display: inline;
+
+}
+.info-amara,
+.info-Desert,
+.info-Villas {
+ display: flex;
+ padding-top: 19px;
+}
+.amara-img {
+ margin-top: 4px;
+}
+.amara,
+.Desert,
+.Villas {
+ background-color: #ffffff;
+ padding-left: 30px;
+}
+.amara h2,
+.Desert h2,
+.Villas h2 {
+ margin: 0;
 }
 .hotels {
  background-color: #ffffff;
@@ -864,13 +882,10 @@ button-down.placeholder path:actived {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
  line-height: 21px;
- text-align: center;
  color: #000000;
  margin: 0;
- padding-left: 16px;
- padding-right: 16px;
  padding-top: 5px;
- padding-bottom: 5px;
+ padding-bottom: 18px;
 }
 .catalog-item a {
  font-family: 'PT Sans', sans-serif;
@@ -891,27 +906,32 @@ button-down.placeholder path:actived {
  color: #cacaca;
 }
 
-.amara,
-.Desert,
-.Villas {
- background-color: #ffffff;
- padding-left: 32px;
-}
-.amara h2,
-.Desert h2,
-.Villas h2 {
- margin: 0;
-}
-a.button-booking,
 a.button-info {
- font-family: initial;
- color: initial;
- font-size: initial;
- padding-left: 20px;
- padding-right: 20px;
+ font-family: 'PT Sans', sans-serif;
+ font-size: 14px;
+ line-height: 21px;
+ font-weight: bold;
+ text-align: center;
+ color: #ffffff;
+ background-color: #81b3d2;
+ padding-left: 17px;
+ padding-right: 17px;
  padding-top: 5px;
  padding-bottom: 5px;
 }
+a.button-info:focus {
+ color: #ffffff;
+ background-color: #81b3d2;
+}
+a.button-info:hover {
+ color: #ffffff;
+ background-color: #669ec0;
+}
+a.button-info:active {
+ color: #928a85;
+ background-color: #5496bd;
+}
+
 a.button-booking {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
@@ -920,6 +940,10 @@ a.button-booking {
  text-align: center;
  color: #ffffff;
  background-color: #766357;
+ padding-left: 18px;
+ padding-right: 18px;
+ padding-top: 5px;
+ padding-bottom: 5px;
 }
 a.button-booking:focus {
  color: #ffffff;
@@ -934,27 +958,6 @@ a.button-booking:active {
  background-color: #503e33;
 }
 
-a.button-info {
- font-family: 'PT Sans', sans-serif;
- font-size: 14px;
- line-height: 21px;
- font-weight: bold;
- text-align: center;
- color: #ffffff;
- background-color: #81b3d2;
-}
-a.button-info:focus {
- color: #ffffff;
- background-color: #81b3d2;
-}
-a.button-info:hover {
- color: #ffffff;
- background-color: #669ec0;
-}
-a.button-info:active {
- color: #928a85;
- background-color: #5496bd;
-}
 p.number {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
