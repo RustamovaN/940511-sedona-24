@@ -593,23 +593,33 @@ p.search-adults {
  font-size: 16px;
  line-height: 21px;
  margin: 0;
- padding-bottom: 24px;
+ padding-bottom: 25px;
 }
 
-.input-check{
+.input-check {
+ position: relative;
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
  line-height: 21px;
- padding-bottom: 15px;
+ padding-bottom: 25px;
+ padding-left: 39px;
 }
-.info input{
+.input-check label::before {
+ position: absolute;
+ top: 0;
+ left: 0;
+ content: "";
+ display: block;
  width: 24px;
  height: 24px;
-
+ background-image: url("../img/checkbox-off.svg");
 }
-
+input[type="checkbox"]:checked + label::before {
+ background-image: url("../img/checkbox-on.svg");
+}
 .info {
  width: 255px;
+ height: 216px;
  margin: 0;
  padding-top: 26px;
  padding-left: 72px;
@@ -620,6 +630,7 @@ p.search-adults {
  font-family: 'PT Sans', sans-serif;
  font-weight: bold;
  width: 330px;
+ height: 216px;
  color: #ffffff;
  text-transform: uppercase;
  margin-left: 300px;
@@ -730,7 +741,7 @@ p.search-adults {
 .sorting {
  display: flex;
  background-color: #ffffff;
- padding-left: 73px;
+ padding-left: 71px;
  padding-bottom: 30px;
 }
 
@@ -740,15 +751,16 @@ p.search-adults {
  font-size: 21px;
  line-height: 26px;
  color: #000000;
- padding-top: 26px;
+ padding-top: 29px;
  margin: 0;
+ width: 350px;
 }
 .sorting p {
  font-family: 'PT Sans', sans-serif;
  font-size: 12px;
  line-height: 18px;
  color: #000000;
- padding-left: 46px;
+ padding-left: 34px;
  padding-top: 36px;
  margin: 0;
 }
@@ -758,7 +770,8 @@ a.money {
  line-height: 18px;
  color: #81b3d2;
  padding-left: 38px;
-  padding-top: 37px;
+ padding-top: 34px;
+ margin: 0; 
 }
 a.type {
  font-family: 'PT Sans', sans-serif;
