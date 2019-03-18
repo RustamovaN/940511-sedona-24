@@ -313,6 +313,7 @@ p.page-header{
 
 .map {
  margin-top: 12px;
+ height: 473px;
 }
 
 .search-form {
@@ -464,8 +465,7 @@ p.search-adults {
  font-size: 21px;
  line-height: 26px;
  background-color: #ffffff;
- margin-top: -125px;
- }
+}
 .main-footer p {
  margin: 0;
  padding-top: 46px;
@@ -843,13 +843,27 @@ button-down.placeholder path:actived {
  flex-direction: column;
  padding-top: 2px;
 }
-.rating-sorting {
+.rating-amara {
+ display: flex;
+ flex-direction: row;
+ margin-left: 502px;
+ margin-top: 2px;
+}
+.rating-Desert {
+ display: flex;
+ flex-direction: row;
+ margin-left: 527px;
+ margin-top: 3px;
+}
+.rating-Villas {
  display: flex;
  flex-direction: row;
  margin-left: 502px;
 }
 
-.rating-sorting li {
+.rating-amara li,
+.rating-Desert li,
+.rating-Villas li {
  background-image: url("../img/star.svg");
  background-repeat: no-repeat;
  background-position: left;
@@ -862,25 +876,42 @@ button-down.placeholder path:actived {
 .info-Desert,
 .info-Villas {
  display: flex;
- padding-top: 19px;
+ padding-top: 18px;
 }
-.amara-img {
+.info-Desert {
+ padding-bottom: 5px;
+}
+.info-amara img {
  margin-top: 4px;
+}
+.info-Desert img {
+ margin-top: 5px;
+}
+.info-Villas img {
+ margin-top: 7px;
 }
 .amara,
 .Desert,
 .Villas {
  background-color: #ffffff;
- padding-left: 30px;
+ padding-left: 32px;
 }
 .amara h2,
 .Desert h2,
 .Villas h2 {
  margin: 0;
 }
+
 .amara-4000 {
  padding-left: 36px;
 }
+.Desert-3000 {
+ padding-left: 61px;
+}
+.Villas-2000{
+ padding-left: 36px;
+}
+
 .hotels {
  background-color: #ffffff;
 }
@@ -889,14 +920,17 @@ button-down.placeholder path:actived {
  padding-left: 71px;
  margin: 0;
 }
+.catalog-item {
+padding-bottom: 17px;
+}
 .catalog-item p {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
  line-height: 21px;
  color: #000000;
  margin: 0;
- padding-top: 5px;
- padding-bottom: 18px;
+ padding-top: 8px;
+ padding-bottom: 17px;
 }
 .catalog-item a {
  font-family: 'PT Sans', sans-serif;
@@ -925,7 +959,7 @@ a.button-info {
  text-align: center;
  color: #ffffff;
  background-color: #81b3d2;
- padding-left: 17px;
+ padding-left: 18px;
  padding-right: 17px;
  padding-top: 5px;
  padding-bottom: 5px;
@@ -979,7 +1013,7 @@ p.number {
  width: 105px;
  height: 30px;
  margin-left: 526px;
- margin-top: 46px;
+ margin-top: 42px;
 }
 .value {
  padding-left: 2px;
