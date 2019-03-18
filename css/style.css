@@ -578,6 +578,7 @@ p.search-adults {
  line-height: 21px;
  width: 1200px;
  padding-top: 0;
+ padding-bottom: 14px;
 }
 .filter {
  display: flex;
@@ -602,7 +603,7 @@ p.search-adults {
  font-size: 14px;
  line-height: 21px;
  padding-bottom: 25px;
- padding-left: 39px;
+ padding-left: 41px;
 }
 .input-check label::before {
  position: absolute;
@@ -639,6 +640,7 @@ input[type="checkbox"]:checked + label::before {
  padding-top: 18px;
  font-size: 16px;
  line-height: 36px;
+ padding-left: 2px;
 }
 .money {
  position: relative;
@@ -841,7 +843,7 @@ button-down.placeholder path:actived {
 .value-rating  {
  display: flex;
  flex-direction: column;
- padding-top: 2px;
+ padding-top: 3px;
 }
 .rating-amara {
  display: flex;
@@ -858,7 +860,7 @@ button-down.placeholder path:actived {
 .rating-Villas {
  display: flex;
  flex-direction: row;
- margin-left: 502px;
+ margin-left: 551px;
 }
 
 .rating-amara li,
@@ -870,7 +872,7 @@ button-down.placeholder path:actived {
  width: 18px;
  height: 17px;
  list-style: none;
- padding-left: 25px;
+ padding-left: 23px;
 }
 .info-amara,
 .info-Desert,
@@ -888,7 +890,7 @@ button-down.placeholder path:actived {
  margin-top: 5px;
 }
 .info-Villas img {
- margin-top: 7px;
+ margin-top: 5px;
 }
 .amara,
 .Desert,
@@ -909,7 +911,7 @@ button-down.placeholder path:actived {
  padding-left: 61px;
 }
 .Villas-2000{
- padding-left: 36px;
+ padding-left: 17px;
 }
 
 .hotels {
@@ -929,7 +931,7 @@ padding-bottom: 17px;
  line-height: 21px;
  color: #000000;
  margin: 0;
- padding-top: 8px;
+ padding-top: 7px;
  padding-bottom: 17px;
 }
 .catalog-item a {
@@ -959,9 +961,9 @@ a.button-info {
  text-align: center;
  color: #ffffff;
  background-color: #81b3d2;
- padding-left: 18px;
+ padding-left: 17px;
  padding-right: 17px;
- padding-top: 5px;
+ padding-top: 4px;
  padding-bottom: 5px;
 }
 a.button-info:focus {
@@ -987,7 +989,7 @@ a.button-booking {
  background-color: #766357;
  padding-left: 18px;
  padding-right: 18px;
- padding-top: 5px;
+ padding-top: 4px;
  padding-bottom: 5px;
 }
 a.button-booking:focus {
@@ -1011,9 +1013,10 @@ p.number {
  color: #000000;
  background-color: #f2f2f2;
  width: 105px;
- height: 30px;
- margin-left: 526px;
- margin-top: 42px;
+ height: 25px;
+ margin-left: 525px;
+ margin-top: 50px;
+ padding: 0;
 }
 .value {
  padding-left: 2px;
