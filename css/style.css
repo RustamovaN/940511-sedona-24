@@ -154,7 +154,6 @@ a {
  padding-left: 125px;
  padding-right: 124px;
 }
-
 .one-block p {
  font-family: 'PT Sans', sans-serif;
  color: #ffffff;
@@ -167,7 +166,7 @@ a {
  padding-bottom: 0;
 }
 .two-block p {
-  font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif;
  color: #ffffff;
  background-color: #81b3d2;
  margin: 0;
@@ -196,12 +195,12 @@ a {
  padding: 24px 55px 82px;
 }
 h3.feature-additional {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 21px;
-  text-align: center;
-  padding-top: 48px;
+ font-family: 'PT Sans', sans-serif;
+ font-weight: bold;
+ font-size: 21px;
+ line-height: 21px;
+ text-align: center;
+ padding-top: 48px;
 }
 .feature-housing {
  background-image: url("../img/icon-1.svg");
@@ -565,7 +564,6 @@ p.search-adults {
  color: #bdbbbc;
 }
 
-
 .placeholder {
  background-image: url("../img/catalog-background.png");
  background-repeat: no-repeat;
@@ -628,8 +626,6 @@ input[type="checkbox"]:checked + label::before {
 }
 
 .price {
- font-family: 'PT Sans', sans-serif;
- font-weight: bold;
  width: 330px;
  height: 216px;
  color: #ffffff;
@@ -637,19 +633,21 @@ input[type="checkbox"]:checked + label::before {
  margin-left: 300px;
 }
 .filter-price{
+ font-family: 'PT Sans', sans-serif;
+ font-weight: bold;
  padding-top: 18px;
  font-size: 16px;
  line-height: 36px;
  padding-left: 2px;
 }
 .money {
+ font-family: 'PT Sans', sans-serif;
  position: relative;
- height: 36px;
+ height: 38px;
  font-size: 0;
- margin-top: 3px;
- margin-bottom: 20px;
+ margin-bottom: 22px;
  border: 2px solid #ffffff;
- border-radius: 2px;
+ border-radius: 1px;
  width: 318px;
 }
 .money label {
@@ -659,10 +657,13 @@ input[type="checkbox"]:checked + label::before {
  vertical-align: top;
  cursor: pointer;
 }
-.money .filter-from,
-.money .filter-before {
+.money .filter-from {
  width: 150px;
  padding-left: 65px;
+}
+.money .filter-before {
+ width: 150px;
+ padding-left: 62px;
 }
 .money input {
  width: 50px;
@@ -717,7 +718,7 @@ input[type="checkbox"]:checked + label::before {
  height: 20px;
 }
 .range-toggle-max {
- left: 76%;
+ left: 77%;
  width: 21px;
  height: 21px;
 }
@@ -725,7 +726,7 @@ input[type="checkbox"]:checked + label::before {
 .placeholder button {
  display: block;
  margin-left: 84px;
- padding: 6px 34px;
+ padding: 6px 35px;
  font-size: 14px;
  line-height: 20px;
  color: #ffffff;
