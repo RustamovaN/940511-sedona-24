@@ -332,7 +332,7 @@ p.page-header{
  font-size: 14px;
  line-height: 26px;
  background-color: #f2f2f2;
- background-image: url(../img/calendar.svg);
+ background-image: url("../img/calendar.svg");
  background-repeat: no-repeat;
  background-position: 315px;
  border: 0;
@@ -356,7 +356,7 @@ p.date-start {
  font-size: 14px;
  line-height: 26px;
  background-color: #f2f2f2;
- background-image: url(../img/calendar.svg);
+ background-image: url("../img/calendar.svg");
  background-repeat: no-repeat;
  background-position: 315px;
  border: 0;
@@ -383,6 +383,7 @@ p.date-end {
  width: 38px;
  height: 38px;
  text-align: center;
+ padding-left: 16px;
 }
 p.search-children {
  display: flex;
@@ -425,6 +426,8 @@ margin-right: 27px;
  height: 38px;
  padding: 0;
  background-image: url("../img/minus.svg");
+ background-repeat: no-repeat;
+ background-size: 13px 3px;
 }
 .button-plus {
  position: relative;
@@ -435,6 +438,10 @@ margin-right: 27px;
  width: 38px;
  height: 38px;
  padding: 0;
+ background-image: url("../img/plus.svg");
+ background-repeat: no-repeat;
+ background-size: 11px 11px;
+
 }
 .button-search {
  font-family: 'PT Sans', sans-serif;
