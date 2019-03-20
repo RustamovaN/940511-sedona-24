@@ -425,9 +425,10 @@ margin-right: 27px;
  width: 38px;
  height: 38px;
  padding: 0;
- background-image: url("../img/minus.svg");
+ background-image: url("../img/minus.png");
  background-repeat: no-repeat;
  background-size: 13px 3px;
+ background-position: 50%;
 }
 .button-plus {
  position: relative;
@@ -438,10 +439,10 @@ margin-right: 27px;
  width: 38px;
  height: 38px;
  padding: 0;
- background-image: url("../img/plus.svg");
+ background-image: url("../img/plus.png");
  background-repeat: no-repeat;
  background-size: 11px 11px;
-
+ background-position: 50%;
 }
 .button-search {
  font-family: 'PT Sans', sans-serif;
