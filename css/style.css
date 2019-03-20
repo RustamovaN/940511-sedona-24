@@ -36,7 +36,6 @@ a {
  display: flex;
  flex-direction: column;
 }
-
 .site-navigation {
  font-family: 'PT Sans', sans-serif;
  font-weight: bold;
@@ -50,7 +49,6 @@ a {
  list-style-type: none;
  width: 100%;
  margin-top: -80px;
-
 }
 .site-navigation a {
  color: #000000;
@@ -111,7 +109,6 @@ a {
  padding-top: 26px;
  padding-bottom: 50px;
 }
-
 .visually-hidden {
  position: absolute;
  clip: rect(0 0 0 0);
@@ -119,7 +116,6 @@ a {
  height: 1px;
  margin: -1px;
 }
-
 .features-list {
  display: flex;
  flex-wrap: wrap;
@@ -131,7 +127,6 @@ a {
  display: flex;
  flex-direction: row;
 }
-
 .one-block,
 .two-block {
  font-family: 'PT Sans', sans-serif;
@@ -264,7 +259,6 @@ h3.feature-additional {
  padding-right: 67px;
  padding-bottom: 0;
 }
-
 .appointment {
  display: flex;
  flex-direction: column;
@@ -309,7 +303,6 @@ p.page-header{
  padding-bottom: 60px;
  padding-top: 0;
 }
-
 .map {
  margin-top: 12px;
 }
@@ -547,7 +540,6 @@ margin-right: 27px;
  color: #89b7d1;
  background-color: #5596be;
 }
-
 .copyright {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
@@ -599,7 +591,6 @@ margin-right: 27px;
  padding: 0;
  margin: 0;
 }
-
 .filter-container,
 .filter-housing {
  font-family: 'PT Sans', sans-serif;
@@ -610,7 +601,6 @@ margin-right: 27px;
  margin: 0;
  padding-bottom: 25px;
 }
-
 .input-check {
  position: relative;
  font-family: 'PT Sans', sans-serif;
@@ -640,7 +630,6 @@ input[type="checkbox"]:checked + label::before {
  padding-left: 72px;
  text-transform: inherit;
 }
-
 .price {
  width: 330px;
  height: 216px;
@@ -700,7 +689,6 @@ input[type="checkbox"]:checked + label::before {
  left: 50%;
  transform: translate(-50%, -50%);
 }
-
 .range {
  position: relative;
  margin-bottom: 32px;
@@ -739,7 +727,6 @@ input[type="checkbox"]:checked + label::before {
  width: 21px;
  height: 21px;
 }
-
 .placeholder button {
  display: block;
  margin-left: 84px;
@@ -757,14 +744,12 @@ input[type="checkbox"]:checked + label::before {
  color: #000000;
  background: #ffffff;
 }
-
 .sorting {
  display: flex;
  background-color: #ffffff;
  padding-left: 71px;
  padding-bottom: 31px;
 }
-
 .sorting h2 {
  font-family: 'PT Sans', sans-serif;
  font-weight: bold;
@@ -822,7 +807,6 @@ a.like:hover {
 a.like:active {
  color: #000000;
 }
-
 path {
  fill: #cacaca;
 }
@@ -856,7 +840,6 @@ path {
 button-down.placeholder path:actived {
  fill: #81b3d2;
 }
-
 .value-rating  {
  display: flex;
  flex-direction: column;
@@ -879,7 +862,6 @@ button-down.placeholder path:actived {
  flex-direction: row;
  margin-left: 551px;
 }
-
 .rating-amara li,
 .rating-Desert li,
 .rating-Villas li {
@@ -923,7 +905,6 @@ button-down.placeholder path:actived {
 .Villas h2 {
  margin: 0;
 }
-
 .amara-4000 {
  padding-left: 36px;
 }
@@ -933,7 +914,6 @@ button-down.placeholder path:actived {
 .Villas-2000{
  padding-left: 17px;
 }
-
 .hotels {
  background-color: #ffffff;
 }
@@ -976,7 +956,6 @@ button-down.placeholder path:actived {
 .catalog-item a:active {
  color: #cacaca;
 }
-
 a.button-info {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
@@ -1002,7 +981,6 @@ a.button-info:active {
  color: #928a85;
  background-color: #5496bd;
 }
-
 a.button-booking {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
@@ -1028,7 +1006,6 @@ a.button-booking:active {
  color: #94b9d2;
  background-color: #503e33;
 }
-
 p.number {
  font-family: 'PT Sans', sans-serif;
  font-size: 14px;
