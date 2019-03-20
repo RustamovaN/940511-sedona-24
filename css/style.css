@@ -312,9 +312,10 @@ p.page-header{
 
 .map {
  margin-top: 12px;
- /*height: 473px;*/
 }
-
+.map img {
+ display: block
+}
 .search-form {
  color: #000000;
  background-color: #ffffff;
@@ -467,33 +468,33 @@ margin-right: 27px;
 .main-footer {
  display: flex;
  flex-direction: row;
- flex-wrap: wrap;
  width: 1200px;
  font-family: 'PT Sans', sans-serif;
  font-weight: bold;
  color: #000000;
  font-size: 21px;
  line-height: 26px;
- background-color: #ffffff;
+ background-color: rgba(255, 255, 255, 0.9);
+ padding: 20px 0;
+ margin-top: -120px;
+ position: relative;
+ z-index: 10;
+ align-items: center;
+ padding-top: 35px;
+ padding-bottom: 38px;
 }
 .main-footer p {
  margin: 0;
- padding-top: 46px;
- padding-bottom: 48px;
  width: 400px;
  text-align: center;
- background-color: #ffffff;
 }
 .social {
  display: flex;
  justify-content: center;
  list-style-type:none;
- padding-top: 35px;
- padding-bottom: 36px;
  margin: 0;
  width: 400px;
- padding-left: 0;
- background-color: #ffffff;
+ padding: 0;
 }
 .social-twitter {
  display: block;
@@ -504,7 +505,6 @@ margin-right: 27px;
  background-position: 50%;
  background-color: #81b3d2;
  background-size: 20px 15px;
- margin-bottom: 20px;
  margin-right: 7px;
 }
 .social-fasebook {
@@ -527,7 +527,6 @@ margin-right: 27px;
  background-position: 50%;
  background-color: #81b3d2;
  background-size: 20px 20px;
- margin-bottom: 40px;
 }
 .social a:focus {
  color: #fefefe;
@@ -547,11 +546,11 @@ margin-right: 27px;
  font-size: 14px;
  line-height: 26px;
  color: #231f20;
- background-color: #ffffff;
  width: 400px;
  margin: 0;
  text-align: center;
  display: flex;
+ align-items: center;
 }
 .copyright p {
  text-align: end;
@@ -562,7 +561,6 @@ margin-right: 27px;
  color: #231f20;
  width: 115px;
  height: 41px;
- margin-top: 38px;
  padding-left: 9px;
 }
 .copyright a:focus {
@@ -587,7 +585,7 @@ margin-right: 27px;
  line-height: 21px;
  width: 1200px;
  padding-top: 0;
- padding-bottom: 14px;
+ padding-bottom: 120px;
 }
 .filter {
  display: flex;
@@ -652,11 +650,12 @@ input[type="checkbox"]:checked + label::before {
  padding-left: 2px;
 }
 .money {
+ margin-top: 2px;
  font-family: 'PT Sans', sans-serif;
  position: relative;
  height: 38px;
  font-size: 0;
- margin-bottom: 22px;
+ margin-bottom: 19px;
  border: 2px solid #ffffff;
  border-radius: 1px;
  width: 318px;
@@ -664,7 +663,7 @@ input[type="checkbox"]:checked + label::before {
 .money label {
  display: inline-block;
  font-size: 14px;
- line-height: 38px;
+ line-height: 33px;
  vertical-align: top;
  cursor: pointer;
 }
@@ -756,7 +755,7 @@ input[type="checkbox"]:checked + label::before {
  display: flex;
  background-color: #ffffff;
  padding-left: 71px;
- padding-bottom: 24px;
+ padding-bottom: 31px;
 }
 
 .sorting h2 {
@@ -850,7 +849,6 @@ path {
 button-down.placeholder path:actived {
  fill: #81b3d2;
 }
-/* добелать цвет*/
 
 .value-rating  {
  display: flex;
@@ -886,11 +884,14 @@ button-down.placeholder path:actived {
  list-style: none;
  padding-left: 23px;
 }
-.info-amara,
 .info-Desert,
-.info-Villas {
+.info-Villas,
+.info-amara {
  display: flex;
  padding-top: 18px;
+}
+.info-Villas {
+ padding-bottom: 5px;
 }
 .info-Desert {
  padding-bottom: 5px;
@@ -931,11 +932,15 @@ button-down.placeholder path:actived {
 }
 .catalog-list {
  list-style-type: none;
- padding-left: 71px;
+ padding-left: 0;
  margin: 0;
+ border-top: 1px solid #e5e5e5
 }
 .catalog-item {
-padding-bottom: 17px;
+ padding-bottom: 24px;
+ padding-top: 7px;
+ padding-left: 71px;
+ border-bottom: 1px solid #e5e5e5
 }
 .catalog-item p {
  font-family: 'PT Sans', sans-serif;
