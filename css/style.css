@@ -11,7 +11,7 @@ html{ box-sizing: border-box; }
 body {
  margin: 0;
  padding: 0;
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 21px;
  color: #333333;
@@ -23,7 +23,7 @@ a {
 }
 
 .main-navigation {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  align-items: center;
  font-size: 14px;
@@ -37,7 +37,7 @@ a {
  flex-direction: column;
 }
 .site-navigation {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 14px;
  line-height: 22px;
@@ -64,34 +64,44 @@ a {
 .site-navigation li:nth-child(4n+1) {
  padding-left: 72px;
 }
-.site-navigation li:nth-child(4n+2){
+.site-navigation li:nth-child(4n+2) {
  padding-left: 13px;
 }
-.site-navigation li:nth-child(4n+3){
+.site-navigation li:nth-child(4n+3) {
  padding-right: 15px;
 }
-.site-navigation li:nth-child(4n+4){
+.site-navigation li:nth-child(4n+4) {
  padding-right: 71px;
 }
-.site-navigation li{
+.site-navigation li {
  width: 25%;
  padding-top: 18px;
  padding-bottom: 18px;
 }
+.information:hover {
+ color: #81b3d2;
+}
+.information:active {
+ color: #cacaca;
+}
+.information:visited {
+ color: #978a83;
+}
+
 .container-logo {
  width: 140px;
- heigh: 72px;
+ height: 72px;
 }
 
 .main-container {
  background-image: url("../img/background.jpg");
  background-position: -1px -56px;
  background-repeat: no-repeat;
- background-color: #ffffff;
+ background-color: #f2f2f2;
  padding-top: 516px;
 }
 .main-container h1 {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 21px;
  line-height: 27px;
@@ -130,7 +140,7 @@ a {
 }
 .one-block,
 .two-block {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 21px;
  color: #ffffff;
@@ -151,7 +161,7 @@ a {
  padding-right: 124px;
 }
 .one-block p {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  color: #ffffff;
  background-color: #81b3d2;
  margin: 0;
@@ -162,7 +172,7 @@ a {
  padding-bottom: 0;
 }
 .two-block p {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  color: #ffffff;
  background-color: #81b3d2;
  margin: 0;
@@ -173,7 +183,7 @@ a {
  padding-bottom: 0;
 }
 .feature-additional {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 21px;
  color: #000000;
@@ -185,13 +195,13 @@ a {
  padding-left: 0;
 }
 .feature-additional p {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 21px;
  padding: 24px 55px 82px;
 }
 h3.feature-additional {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 21px;
  line-height: 21px;
@@ -224,8 +234,8 @@ h3.feature-additional {
  width: 400px;
  padding-top: 104px;
 }
-.feature-group h3{
- font-family: 'PT Sans', sans-serif;
+.feature-group h3 {
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 21px;
  line-height: 21px;
@@ -233,7 +243,7 @@ h3.feature-additional {
  margin: 0;
 }
 .feature-item h3 {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 21px;
  line-height: 21px;
@@ -249,7 +259,7 @@ h3.feature-additional {
  padding-bottom: 60px;
 }
 .feature-item p {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 21px;
  color: #000000;
@@ -300,7 +310,7 @@ h3.feature-additional {
  padding-top: 49px;
  padding-bottom: 21px;
 }
-p.page-header{
+p.page-header {
  padding-bottom: 60px;
  padding-top: 0;
 }
@@ -308,7 +318,7 @@ p.page-header{
  margin-top: 12px;
 }
 .map img {
- display: block
+ display: block;
 }
 .search-form {
  color: #000000;
@@ -320,11 +330,14 @@ p.page-header{
  margin-left: 315px;
  box-shadow: 0 0 10px rgba(122,122,122,0.5);
 }
-.date-start input {
- font-family: 'PT Sans', sans-serif;
+.date-start input,
+.date-end input {
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 14px;
  line-height: 26px;
+}
+.date-start input {
  background-color: #f2f2f2;
  background-image: url("../img/calendar.svg");
  background-repeat: no-repeat;
@@ -334,21 +347,7 @@ p.page-header{
  height: 38px;
  margin-left: 20px;
 }
-p.date-start {
- font-family: 'PT Sans', sans-serif;
- font-weight: bold;
- font-size: 14px;
- line-height: 26px;
- text-align: left;
- padding-top: 55px;
- padding-bottom: 0;
- padding-left: 58px;
-}
 .date-end input {
- font-family: 'PT Sans', sans-serif;
- font-weight: bold;
- font-size: 14px;
- line-height: 26px;
  background-color: #f2f2f2;
  background-image: url("../img/calendar.svg");
  background-repeat: no-repeat;
@@ -358,8 +357,18 @@ p.date-start {
  height: 38px;
  margin-left: 17px;
 }
+p.date-start {
+ font-family: 'PT Sans', sans-serif, arial;
+ font-weight: bold;
+ font-size: 14px;
+ line-height: 26px;
+ text-align: left;
+ padding-top: 55px;
+ padding-bottom: 0;
+ padding-left: 58px;
+}
 p.date-end {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 14px;
  line-height: 26px;
@@ -370,7 +379,7 @@ p.date-end {
 }
 .search-children input,
 .search-adults input {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  background-color: #f2f2f2;
  border: 0;
@@ -383,7 +392,7 @@ p.search-children {
  align-items: center;
  margin-top: 29px;
  padding: 0;
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 14px;
  line-height: 26px;
@@ -394,7 +403,7 @@ p.search-adults {
  margin-top: 29px;
  margin-right: 53px;
  padding: 0;
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 14px;
  line-height: 26px;
@@ -405,13 +414,13 @@ margin-right: 40px;
 .search-children label {
 margin-right: 27px;
 }
-.person{
+.person {
  display: flex;
  flex-direction: row;
  padding-left: 56px;
 }
 .button-minus {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  border: none;
  background-color: #f2f2f2;
@@ -425,7 +434,7 @@ margin-right: 27px;
 }
 .button-plus {
  position: relative;
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  border: none;
  background-color: #f2f2f2;
@@ -438,7 +447,7 @@ margin-right: 27px;
  background-position: 50%;
 }
 .button-search {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 21px;
  line-height: 26px;
@@ -470,7 +479,7 @@ margin-right: 27px;
  display: flex;
  flex-direction: row;
  width: 1200px;
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  color: #000000;
  font-size: 21px;
@@ -542,7 +551,7 @@ margin-right: 27px;
  background-color: #5596be;
 }
 .copyright {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 26px;
  color: #231f20;
@@ -578,7 +587,7 @@ margin-right: 27px;
  background-repeat: no-repeat;
  background-size: 1200px 220px;
  background-position: top;
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  color: #ffffff;
  background-color: #ffffff;
  font-size: 14px;
@@ -594,7 +603,7 @@ margin-right: 27px;
 }
 .filter-container,
 .filter-housing {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  color: #ffffff;
  font-size: 16px;
@@ -604,7 +613,7 @@ margin-right: 27px;
 }
 .input-check {
  position: relative;
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 21px;
  padding-bottom: 25px;
@@ -619,9 +628,11 @@ margin-right: 27px;
  width: 24px;
  height: 24px;
  background-image: url("../img/checkbox-off.svg");
+ background-repeat: no-repeat;
 }
 input[type="checkbox"]:checked + label::before {
  background-image: url("../img/checkbox-on.svg");
+ background-repeat: no-repeat;
 }
 .info {
  width: 255px;
@@ -638,8 +649,8 @@ input[type="checkbox"]:checked + label::before {
  text-transform: uppercase;
  margin-left: 300px;
 }
-.filter-price{
- font-family: 'PT Sans', sans-serif;
+.filter-price {
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  padding-top: 18px;
  font-size: 16px;
@@ -648,7 +659,7 @@ input[type="checkbox"]:checked + label::before {
 }
 .money {
  margin-top: 2px;
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  position: relative;
  height: 38px;
  font-size: 0;
@@ -752,7 +763,7 @@ input[type="checkbox"]:checked + label::before {
  padding-bottom: 31px;
 }
 .sorting h2 {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-weight: bold;
  font-size: 21px;
  line-height: 26px;
@@ -762,7 +773,7 @@ input[type="checkbox"]:checked + label::before {
  width: 120px;
 }
 .sorting p {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 12px;
  line-height: 18px;
  color: #000000;
@@ -771,7 +782,7 @@ input[type="checkbox"]:checked + label::before {
  margin: 0;
 }
 a.check {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 12px;
  line-height: 18px;
  color: #81b3d2;
@@ -780,7 +791,7 @@ a.check {
  margin: 0;
 }
 a.type {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 12px;
  line-height: 18px;
  color: #cacaca;
@@ -790,7 +801,7 @@ a.type {
  height: 53px;
 }
 a.like {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 12px;
  line-height: 18px;
  color: #cacaca;
@@ -813,6 +824,7 @@ path {
 }
 .button-up {
  display:inline-block;
+ vertical-align: baseline;
  background-repeat: no-repeat;
  color: #ffffff;
  width: 11px;
@@ -822,6 +834,7 @@ path {
 }
 .button-down {
  display:inline-block;
+ vertical-align: baseline;
  background-repeat: no-repeat;
  color: #81b3d2;
  width: 11px;
@@ -838,7 +851,7 @@ path {
 .placeholder path:active {
  fill: #81b3d2;
 }
-button-down.placeholder path:actived {
+button-down.placeholder path:active {
  fill: #81b3d2;
 }
 .value-rating  {
@@ -846,7 +859,7 @@ button-down.placeholder path:actived {
  flex-direction: column;
  padding-top: 3px;
 }
-.rating-amara {
+.rating-Amara {
  display: flex;
  flex-direction: row;
  margin-left: 502px;
@@ -863,7 +876,7 @@ button-down.placeholder path:actived {
  flex-direction: row;
  margin-left: 551px;
 }
-.rating-amara li,
+.rating-Amara li,
 .rating-Desert li,
 .rating-Villas li {
  background-image: url("../img/star.svg");
@@ -876,7 +889,7 @@ button-down.placeholder path:actived {
 }
 .info-Desert,
 .info-Villas,
-.info-amara {
+.info-Amara {
  display: flex;
  padding-top: 18px;
 }
@@ -886,7 +899,7 @@ button-down.placeholder path:actived {
 .info-Desert {
  padding-bottom: 5px;
 }
-.info-amara img {
+.info-Amara img {
  margin-top: 4px;
 }
 .info-Desert img {
@@ -895,24 +908,24 @@ button-down.placeholder path:actived {
 .info-Villas img {
  margin-top: 5px;
 }
-.amara,
+.Amara,
 .Desert,
 .Villas {
  background-color: #ffffff;
  padding-left: 32px;
 }
-.amara h2,
+.Amara h2,
 .Desert h2,
 .Villas h2 {
  margin: 0;
 }
-.amara-4000 {
+.Amara-4000 {
  padding-left: 36px;
 }
 .Desert-3000 {
  padding-left: 61px;
 }
-.Villas-2000{
+.Villas-2000 {
  padding-left: 17px;
 }
 .hotels {
@@ -922,16 +935,16 @@ button-down.placeholder path:actived {
  list-style-type: none;
  padding-left: 0;
  margin: 0;
- border-top: 1px solid #e5e5e5
+ border-top: 1px solid #e5e5e5;
 }
 .catalog-item {
  padding-bottom: 24px;
  padding-top: 7px;
  padding-left: 71px;
- border-bottom: 1px solid #e5e5e5
+ border-bottom: 1px solid #e5e5e5;
 }
 .catalog-item p {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 21px;
  color: #000000;
@@ -940,7 +953,7 @@ button-down.placeholder path:actived {
  padding-bottom: 17px;
 }
 .catalog-item a {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 21px;
  line-height: 26px;
  font-weight: bold;
@@ -958,7 +971,7 @@ button-down.placeholder path:actived {
  color: #cacaca;
 }
 a.button-info {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 21px;
  font-weight: bold;
@@ -983,7 +996,7 @@ a.button-info:active {
  background-color: #5496bd;
 }
 a.button-booking {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 21px;
  font-weight: bold;
@@ -1004,11 +1017,11 @@ a.button-booking:hover {
  background-color: #604e43;
 }
 a.button-booking:active {
- color: #94b9d2;
+ color: #827872;
  background-color: #503e33;
 }
 p.number {
- font-family: 'PT Sans', sans-serif;
+ font-family: 'PT Sans', sans-serif, arial;
  font-size: 14px;
  line-height: 21px;
  text-align: center;
