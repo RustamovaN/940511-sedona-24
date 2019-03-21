@@ -347,6 +347,12 @@ p.page-header {
  height: 38px;
  margin-left: 20px;
 }
+.date-start input:hover {
+ background-color: #ebebeb;
+}
+.date-start input:focus {
+ background-color: #ffffff;
+}
 .date-end input {
  background-color: #f2f2f2;
  background-image: url("../img/calendar.svg");
@@ -548,7 +554,7 @@ margin-right: 27px;
 }
 .social a:active {
  color: #89b7d1;
- background-color: #5596be;
+ background-color: #5596bd;
 }
 .copyright {
  font-family: 'PT Sans', sans-serif, arial;
