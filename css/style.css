@@ -12,7 +12,7 @@ html{ box-sizing: border-box; }
 body {
  margin: 0;
  padding: 0;
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 21px;
  color: #333333;
@@ -24,7 +24,7 @@ a {
 }
 
 .main-navigation {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  -webkit-box-align: center;
  -ms-flex-align: center;
@@ -45,7 +45,7 @@ a {
  flex-direction: column;
 }
 .site-navigation {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 14px;
  line-height: 22px;
@@ -115,7 +115,7 @@ a {
  padding-top: 516px;
 }
 .main-container h1 {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 21px;
  line-height: 27px;
@@ -162,7 +162,7 @@ a {
 }
 .one-block,
 .two-block {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 21px;
  color: #ffffff;
@@ -183,7 +183,7 @@ a {
  padding-right: 124px;
 }
 .one-block p {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  color: #ffffff;
  background-color: #81b3d2;
  margin: 0;
@@ -194,7 +194,7 @@ a {
  padding-bottom: 0;
 }
 .two-block p {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  color: #ffffff;
  background-color: #81b3d2;
  margin: 0;
@@ -205,7 +205,7 @@ a {
  padding-bottom: 0;
 }
 .feature-additional {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 21px;
  color: #000000;
@@ -222,13 +222,13 @@ a {
  padding-left: 0;
 }
 .feature-additional p {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 21px;
  padding: 24px 55px 82px;
 }
 h3.feature-additional {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 21px;
  line-height: 21px;
@@ -262,7 +262,7 @@ h3.feature-additional {
  padding-top: 104px;
 }
 .feature-group h3 {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 21px;
  line-height: 21px;
@@ -270,7 +270,7 @@ h3.feature-additional {
  margin: 0;
 }
 .feature-item h3 {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 21px;
  line-height: 21px;
@@ -286,7 +286,7 @@ h3.feature-additional {
  padding-bottom: 60px;
 }
 .feature-item p {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 21px;
  color: #000000;
@@ -365,7 +365,7 @@ p.page-header {
 }
 .date-start input,
 .date-end input {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 14px;
  line-height: 26px;
@@ -397,7 +397,7 @@ p.page-header {
  margin-left: 17px;
 }
 p.date-start {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 14px;
  line-height: 26px;
@@ -407,7 +407,7 @@ p.date-start {
  padding-left: 58px;
 }
 p.date-end {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 14px;
  line-height: 26px;
@@ -418,7 +418,7 @@ p.date-end {
 }
 .search-children input,
 .search-adults input {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  background-color: #f2f2f2;
  border: 0;
@@ -435,7 +435,7 @@ p.search-children {
  align-items: center;
  margin-top: 29px;
  padding: 0;
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 14px;
  line-height: 26px;
@@ -450,7 +450,7 @@ p.search-adults {
  margin-top: 29px;
  margin-right: 53px;
  padding: 0;
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 14px;
  line-height: 26px;
@@ -472,7 +472,7 @@ margin-right: 27px;
  padding-left: 56px;
 }
 .button-minus {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  border: none;
  background-color: #f2f2f2;
@@ -486,7 +486,7 @@ margin-right: 27px;
 }
 .button-plus {
  position: relative;
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  border: none;
  background-color: #f2f2f2;
@@ -499,7 +499,7 @@ margin-right: 27px;
  background-position: 50%;
 }
 .button-search {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 21px;
  line-height: 26px;
@@ -536,7 +536,7 @@ margin-right: 27px;
  -ms-flex-direction: row;
  flex-direction: row;
  width: 1200px;
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  color: #000000;
  font-size: 21px;
@@ -611,7 +611,7 @@ margin-right: 27px;
  background-color: #5596bd;
 }
 .copyright {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 26px;
  color: #231f20;
@@ -651,7 +651,7 @@ margin-right: 27px;
  background-repeat: no-repeat;
  background-size: 1200px 220px;
  background-position: top;
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  color: #ffffff;
  background-color: #ffffff;
  font-size: 14px;
@@ -669,7 +669,7 @@ margin-right: 27px;
 }
 .filter-container,
 .filter-housing {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  color: #ffffff;
  font-size: 16px;
@@ -679,7 +679,7 @@ margin-right: 27px;
 }
 .input-check {
  position: relative;
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 21px;
  padding-bottom: 25px;
@@ -716,7 +716,7 @@ input[type="checkbox"]:checked + label::before {
  margin-left: 300px;
 }
 .filter-price {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  padding-top: 18px;
  font-size: 16px;
@@ -725,7 +725,7 @@ input[type="checkbox"]:checked + label::before {
 }
 .money {
  margin-top: 2px;
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  position: relative;
  height: 38px;
  font-size: 0;
@@ -834,7 +834,7 @@ input[type="checkbox"]:checked + label::before {
  padding-bottom: 31px;
 }
 .sorting h2 {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
  font-size: 21px;
  line-height: 26px;
@@ -844,7 +844,7 @@ input[type="checkbox"]:checked + label::before {
  width: 120px;
 }
 .sorting p {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 12px;
  line-height: 18px;
  color: #000000;
@@ -853,7 +853,7 @@ input[type="checkbox"]:checked + label::before {
  margin: 0;
 }
 a.check {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 12px;
  line-height: 18px;
  color: #81b3d2;
@@ -862,7 +862,7 @@ a.check {
  margin: 0;
 }
 a.type {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 12px;
  line-height: 18px;
  color: #cacaca;
@@ -872,7 +872,7 @@ a.type {
  height: 53px;
 }
 a.like {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 12px;
  line-height: 18px;
  color: #cacaca;
@@ -1037,7 +1037,7 @@ button-down.placeholder path:active {
  border-bottom: 1px solid #e5e5e5;
 }
 .catalog-item p {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 21px;
  color: #000000;
@@ -1046,7 +1046,7 @@ button-down.placeholder path:active {
  padding-bottom: 17px;
 }
 .catalog-item a {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 21px;
  line-height: 26px;
  font-weight: bold;
@@ -1064,7 +1064,7 @@ button-down.placeholder path:active {
  color: #cacaca;
 }
 a.button-info {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 21px;
  font-weight: bold;
@@ -1089,7 +1089,7 @@ a.button-info:active {
  background-color: #5496bd;
 }
 a.button-booking {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 21px;
  font-weight: bold;
@@ -1114,7 +1114,7 @@ a.button-booking:active {
  background-color: #503e33;
 }
 p.number {
- font-family: 'PT Sans', sans-serif, arial;
+ font-family: 'PT Sans', 'Arial', sans-serif;
  font-size: 14px;
  line-height: 21px;
  text-align: center;
