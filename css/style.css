@@ -890,6 +890,7 @@ a.like:hover {
 }
 a.like:active {
  color: #000000;
+ border: none;
 }
 path {
  fill: #cacaca;
