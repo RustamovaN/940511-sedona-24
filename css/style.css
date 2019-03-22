@@ -306,6 +306,7 @@ h3.feature-additional {
  -ms-flex-direction: column;
  flex-direction: column;
  text-align: center;
+ background-color: #ffffff;
 }
 .appointment a {
  font-size: 21px;
@@ -369,15 +370,12 @@ p.page-header {
  font-weight: bold;
  font-size: 14px;
  line-height: 26px;
-}
-.date-start input {
  background-color: #f2f2f2;
- background-image: url("../img/calendar.svg");
- background-repeat: no-repeat;
- background-position: 315px;
  border: 0;
  width: 345px;
  height: 38px;
+}
+.date-start input {
  margin-left: 20px;
 }
 .date-start input:hover {
@@ -388,13 +386,6 @@ p.page-header {
  border: 2px solid #e5e5e5;
 }
 .date-end input {
- background-color: #f2f2f2;
- background-image: url("../img/calendar.svg");
- background-repeat: no-repeat;
- background-position: 315px;
- border: 0;
- width: 345px;
- height: 38px;
  margin-left: 17px;
 }
 p.date-start {
@@ -416,6 +407,21 @@ p.date-end {
  padding-top: 30px;
  padding-bottom: 0;
  padding-left: 58px;
+}
+.date-start,
+.date-end {
+ position: relative;
+}
+.calendar {
+ position: absolute;
+ background-image: url("../img/calendar.svg");
+ background-repeat: no-repeat;
+ width: 21px;
+ height: 22px;
+ border: none;
+ padding: 0;
+ left: 485px;
+ margin-top: 8px;
 }
 .search-children input,
 .search-adults input {
