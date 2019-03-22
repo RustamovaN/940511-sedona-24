@@ -111,7 +111,7 @@ a {
  background-image: url("../img/background.jpg");
  background-position: -1px -56px;
  background-repeat: no-repeat;
- background-color: #f2f2f2;
+ background-color: #b8cddf;
  padding-top: 516px;
 }
 .main-container h1 {
@@ -385,6 +385,7 @@ p.page-header {
 }
 .date-start input:focus {
  background-color: #ffffff;
+ border: 2px solid #e5e5e5;
 }
 .date-end input {
  background-color: #f2f2f2;
