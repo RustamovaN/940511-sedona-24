@@ -112,7 +112,7 @@ a {
  background-image: url("../img/background.jpg");
  background-position: -1px -56px;
  background-repeat: no-repeat;
- background-color: #b8cddf;
+ background-color: #deecf5;
  padding-top: 516px;
 }
 .main-container h1 {
@@ -595,7 +595,7 @@ margin-right: 27px;
  width: 46px;
  background-position: 50%;
  background-color: #81b3d2;
- margin-right: 7px;
+ margin-right: 6px;
 }
 .social-youtube {
  display: block;
@@ -839,7 +839,7 @@ input[type="checkbox"]:checked + label::before {
  display: flex;
  background-color: #ffffff;
  padding-left: 71px;
- padding-bottom: 31px;
+ padding-bottom: 30px;
 }
 .sorting h2 {
  font-family: 'PT Sans', 'Arial', sans-serif;
@@ -847,7 +847,7 @@ input[type="checkbox"]:checked + label::before {
  font-size: 21px;
  line-height: 26px;
  color: #000000;
- padding-top: 29px;
+ padding-top: 31px;
  margin: 0;
  width: 120px;
 }
@@ -857,7 +857,7 @@ input[type="checkbox"]:checked + label::before {
  line-height: 18px;
  color: #000000;
  padding-left: 45px;
- padding-top: 36px;
+ padding-top: 37px;
  margin: 0;
 }
 a.check {
@@ -865,8 +865,8 @@ a.check {
  font-size: 12px;
  line-height: 18px;
  color: #81b3d2;
- padding-left: 39px;
- padding-top: 36px;
+ padding-left: 40px;
+ padding-top: 37px;
  margin: 0;
 }
 a.type {
@@ -876,7 +876,7 @@ a.type {
  color: #cacaca;
  margin-left: 33px;
  padding-top: 37px;
- border-bottom: 1px dotted #cacaca;
+ border-bottom: 1px dotted #81b3d2;
  height: 53px;
 }
 a.like {
@@ -886,7 +886,7 @@ a.like {
  color: #cacaca;
  margin-left: 33px;
  padding-top: 37px;
- border-bottom: 1px dotted #cacaca;
+ border-bottom: 1px dotted #81b3d2;
  height: 53px;
 }
 a.like:focus {
@@ -909,7 +909,7 @@ path {
  color: #ffffff;
  width: 11px;
  height: 10px;
- padding-top: 34px;
+ padding-top: 36px;
  margin-left: 504px;
 }
 .button-down {
@@ -919,7 +919,7 @@ path {
  color: #81b3d2;
  width: 11px;
  height: 10px;
- padding-top: 34px;
+ padding-top: 36px;
  padding-left: 12px;
 }
 .placeholder path:focus {
@@ -1041,7 +1041,7 @@ button-down.placeholder path:active {
 }
 .catalog-item {
  padding-bottom: 24px;
- padding-top: 7px;
+ padding-top: 8px;
  padding-left: 71px;
  border-bottom: 1px solid #e5e5e5;
 }
