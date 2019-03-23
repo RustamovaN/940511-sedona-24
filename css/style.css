@@ -43,6 +43,7 @@ a {
  -webkit-box-direction: normal;
  -ms-flex-direction: column;
  flex-direction: column;
+
 }
 .site-navigation {
  font-family: 'PT Sans', 'Arial', sans-serif;
@@ -62,7 +63,7 @@ a {
  flex-wrap: wrap;
  list-style-type: none;
  width: 100%;
- margin-top: -80px;
+ margin-top: -74px;
 }
 .site-navigation a {
  color: #000000;
@@ -123,7 +124,7 @@ a {
  padding-left: 380px;
  padding-right: 378px;
  margin: 0;
- padding-top: 50px;
+ padding-top: 51px;
 }
 .main-container p {
  font-size: 14px;
@@ -131,8 +132,8 @@ a {
  text-align: center;
  color: #333333;
  margin: 0;
- padding-top: 26px;
- padding-bottom: 50px;
+ padding-top: 27px;
+ padding-bottom: 52px;
 }
 .visually-hidden {
  position: absolute;
@@ -188,7 +189,7 @@ a {
  background-color: #81b3d2;
  margin: 0;
  line-height: 22px;
- padding-top: 22px;
+ padding-top: 21px;
  padding-left: 56px;
  padding-right: 56px;
  padding-bottom: 0;
@@ -242,7 +243,7 @@ h3.feature-additional {
  background-position: 162px 0;
  width: 400px;
  line-height: 26px;
- padding-top: 104px;
+ padding-top: 102px;
 }
 .feature-food {
  background-image: url("../img/icon-3.svg");
@@ -251,7 +252,7 @@ h3.feature-additional {
  background-position: 163px 3px;
  width: 400px;
  line-height: 21px;
- padding-top: 104px;
+ padding-top: 102px;
 }
 .feature-present {
  background-image: url("../img/icon-2.svg");
@@ -259,7 +260,7 @@ h3.feature-additional {
  background-size: 64px 76px;
  background-position: 168px 0;
  width: 400px;
- padding-top: 104px;
+ padding-top: 102px;
 }
 .feature-group h3 {
  font-family: 'PT Sans', 'Arial', sans-serif;
@@ -344,8 +345,8 @@ h3.feature-additional {
  padding-bottom: 21px;
 }
 p.page-header {
- padding-bottom: 60px;
- padding-top: 0;
+ padding-bottom: 61px;
+ padding-top: 3px;
 }
 .map {
  margin-top: 12px;
@@ -394,7 +395,7 @@ p.date-start {
  font-size: 14px;
  line-height: 26px;
  text-align: left;
- padding-top: 55px;
+ padding-top: 56px;
  padding-bottom: 0;
  padding-left: 58px;
 }
@@ -404,7 +405,7 @@ p.date-end {
  font-size: 14px;
  line-height: 26px;
  text-align: left;
- padding-top: 30px;
+ padding-top: 29px;
  padding-bottom: 0;
  padding-left: 58px;
 }
@@ -516,9 +517,9 @@ margin-right: 27px;
  text-align: center;
  border: none;
  text-transform: uppercase;
- width: 460px;
+ width: 457px;
  height: 58px;
- margin-top: 54px;
+ margin-top: 55px;
  padding: 0;
 }
 .button-search:focus {
@@ -550,7 +551,7 @@ margin-right: 27px;
  line-height: 26px;
  background-color: rgba(255, 255, 255, 0.9);
  padding: 20px 0;
- margin-top: -120px;
+ margin-top: -119px;
  position: relative;
  z-index: 10;
  -webkit-box-align: center;
@@ -594,7 +595,7 @@ margin-right: 27px;
  width: 46px;
  background-position: 50%;
  background-color: #81b3d2;
- margin-right: 5px;
+ margin-right: 7px;
 }
 .social-youtube {
  display: block;
