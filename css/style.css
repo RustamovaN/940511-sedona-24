@@ -43,7 +43,6 @@ a {
  -webkit-box-direction: normal;
  -ms-flex-direction: column;
  flex-direction: column;
-
 }
 .site-navigation {
  font-family: 'PT Sans', 'Arial', sans-serif;
@@ -502,6 +501,12 @@ margin-right: 27px;
  background-size: 13px 3px;
  background-position: 50%;
 }
+.button-minus:hover {
+ background-image: url("../img/minus-hover.png");
+}
+.button-minus:active {
+ background-image: url("../img/minus-active.png");
+}
 .button-plus {
  position: relative;
  font-family: 'PT Sans', 'Arial', sans-serif;
@@ -515,6 +520,12 @@ margin-right: 27px;
  background-repeat: no-repeat;
  background-size: 11px 11px;
  background-position: 50%;
+}
+.button-plus:hover {
+ background-image: url("../img/plus-hover.png");
+}
+.button-plus:active {
+ background-image: url("../img/plus-active.png");
 }
 .button-search {
  font-family: 'PT Sans', 'Arial', sans-serif;
@@ -950,7 +961,7 @@ path {
 .down:active {
  fill: #81b3d1;
 }
-.value-rating  {
+.value-rating {
  display: -webkit-box;
  display: -ms-flexbox;
  display: flex;
