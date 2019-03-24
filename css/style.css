@@ -1,5 +1,5 @@
-html{ box-sizing: border-box; }
-*, *::before, *::after { box-sizing: inherit; }
+html{ -webkit-box-sizing: border-box; box-sizing: border-box; }
+*, *::before, *::after { -webkit-box-sizing: inherit; box-sizing: inherit; }
 
 .container {
  width: 1200px;
