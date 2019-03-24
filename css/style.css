@@ -102,6 +102,9 @@ a {
 .information:visited {
  color: #978a83;
 }
+.hotel {
+ color: #c7c0ba;
+}
 
 .container-logo {
  width: 140px;
@@ -424,6 +427,12 @@ p.date-end {
  padding: 0;
  left: 485px;
  margin-top: 8px;
+}
+.calendar:hover {
+ background-image: url("../img/calendar-hover.svg");
+}
+.calendar:active {
+ background-image: url("../img/calendar-active.svg");
 }
 .search-children input,
 .search-adults input {
@@ -808,6 +817,8 @@ input[type="checkbox"]:checked + label::before {
 }
 .range-toggle:hover {
  background: #1c4f80;
+ width: 21px;
+ height: 21px;
 }
 .range-toggle-min {
  left: 0;
@@ -816,8 +827,8 @@ input[type="checkbox"]:checked + label::before {
 }
 .range-toggle-max {
  left: 77%;
- width: 21px;
- height: 21px;
+ width: 20px;
+ height: 20px;
 }
 .placeholder button {
  display: block;
