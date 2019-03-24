@@ -416,6 +416,7 @@ p.date-end {
 .calendar {
  position: absolute;
  background-image: url("../img/calendar.svg");
+ background-color: #f2f2f2;
  background-repeat: no-repeat;
  width: 21px;
  height: 22px;
@@ -644,14 +645,14 @@ margin-right: 27px;
  height: 41px;
  padding-left: 9px;
 }
-.copyright a:focus {
- color: #231f20;
+.logo-name {
+ fill: #000000;
 }
-.copyright a:hover {
- color: #81b3d2;
+.logo-name:hover {
+ fill: #81b4d3;
 }
-.copyright a:active {
- color: #bdbbbc;
+.logo-name:active {
+ fill: #bdbbbc;
 }
 
 .placeholder {
@@ -924,17 +925,19 @@ path {
  padding-top: 34px;
  padding-left: 12px;
 }
-.placeholder path:focus {
+.up {
  fill: #cacaca;
 }
-.placeholder path:hover {
- fill: #231f20;
+.down {
+ fill: #81b2d3;
 }
-.placeholder path:active {
- fill: #81b3d2;
+.up:hover,
+.down:hover {
+ fill: #242021;
 }
-button-down.placeholder path:active {
- fill: #81b3d2;
+.up:active,
+.down:active {
+ fill: #81b3d1;
 }
 .value-rating  {
  display: -webkit-box;
