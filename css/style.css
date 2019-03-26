@@ -8,7 +8,6 @@ html{ -webkit-box-sizing: border-box; box-sizing: border-box; }
  -webkit-box-shadow: 0 0 10px rgba(122,122,122,0.5);
  box-shadow: 0 0 10px rgba(122,122,122,0.5);
 }
-
 body {
  margin: 0;
  padding: 0;
@@ -22,7 +21,6 @@ body {
 a {
  text-decoration: none;
 }
-
 .main-navigation {
  font-family: 'PT Sans', 'Arial', sans-serif;
  font-weight: bold;
@@ -101,15 +99,13 @@ a {
 .information:visited {
  color: #978a83;
 }
-.hotel {
- color: #c7c0ba;
+.hotel:visited {
+ color: #927261;
 }
-
 .container-logo {
  width: 140px;
  height: 72px;
 }
-
 .main-container {
  background-image: url("../img/background.jpg");
  background-position: -1px -56px;
@@ -555,7 +551,6 @@ margin-right: 27px;
  color: #96b8d3;
  background-color: #5596be;
 }
-
 .main-footer {
  display: -webkit-box;
  display: -ms-flexbox;
@@ -647,7 +642,6 @@ margin-right: 27px;
 .social a:active {
  color: #89b7d1;
  background-color: #5596bd;
-
 }
 .copyright {
  font-family: 'PT Sans', 'Arial', sans-serif;
@@ -673,7 +667,7 @@ margin-right: 27px;
  color: #231f20;
  width: 115px;
  height: 41px;
- padding-left: 9px;
+ padding-left: 8px;
 }
 .logo-name {
  fill: #000000;
@@ -684,12 +678,10 @@ margin-right: 27px;
 .logo-name:active {
  fill: #bdbbbc;
 }
-
 .placeholder {
  background-image: url("../img/catalog-background.png");
  background-repeat: no-repeat;
- background-size: 1200px 220px;
- background-position: top;
+ background-position: 0 -55px;
  font-family: 'PT Sans', 'Arial', sans-serif;
  color: #ffffff;
  background-color: #ffffff;
@@ -790,7 +782,7 @@ input[type="checkbox"]:checked + label::before {
  padding-left: 62px;
 }
 .money input {
- width: 30px;
+ width: 45px;
  margin: 0;
  color: inherit;
  background: none;
@@ -933,9 +925,6 @@ a.like:active {
  color: #000000;
  border: none;
 }
-path {
- fill: #cacaca;
-}
 .button-up {
  display:inline-block;
  vertical-align: baseline;
@@ -943,7 +932,7 @@ path {
  color: #ffffff;
  width: 11px;
  height: 10px;
- padding-top: 36px;
+ padding-top: 35px;
  margin-left: 504px;
 }
 .button-down {
@@ -980,7 +969,7 @@ path {
  flex-direction: column;
  padding-top: 3px;
 }
-.rating-Amara {
+.rating-amara {
  display: -webkit-box;
  display: -ms-flexbox;
  display: flex;
@@ -990,7 +979,7 @@ path {
  flex-direction: row;
  margin-left: 503px;
 }
-.rating-Desert {
+.rating-desert {
  display: -webkit-box;
  display: -ms-flexbox;
  display: flex;
@@ -1000,7 +989,7 @@ path {
  flex-direction: row;
  margin-left: 527px;
 }
-.rating-Villas {
+.rating-villas {
  display: -webkit-box;
  display: -ms-flexbox;
  display: flex;
@@ -1010,9 +999,9 @@ path {
  flex-direction: row;
  margin-left: 551px;
 }
-.rating-Amara li,
-.rating-Desert li,
-.rating-Villas li {
+.rating-amara li,
+.rating-desert li,
+.rating-villas li {
  background-image: url("../img/star.svg");
  background-repeat: no-repeat;
  background-position: left;
@@ -1021,47 +1010,46 @@ path {
  list-style: none;
  padding-left: 23px;
 }
-.info-Desert,
-.info-Villas,
-.info-Amara {
+.info-desert,
+.info-villas,
+.info-amara {
  display: -webkit-box;
  display: -ms-flexbox;
  display: flex;
  padding-top: 25px;
 }
-.info-Amara {
+.info-amara {
  padding-bottom: 30px;
 }
-.info-Desert {
+.info-desert {
  padding-bottom: 30px;
 }
-.info-Villas {
+.info-villas {
  padding-bottom:29px;
 }
-
-.info-Amara img,
-.info-Desert img,
-.info-Villas img {
+.info-amara img,
+.info-desert img,
+.info-villas img {
  margin-top: 5px;
 }
-.Amara,
-.Desert,
-.Villas {
+.amara,
+.desert,
+.villas {
  background-color: #ffffff;
  padding-left: 32px;
 }
-.Amara h2,
-.Desert h2,
-.Villas h2 {
+.amara h2,
+.desert h2,
+.villas h2 {
  margin: 0;
 }
-.Amara-4000 {
+.amara-4000 {
  padding-left: 34px;
 }
-.Desert-3000 {
+.desert-3000 {
  padding-left: 60px;
 }
-.Villas-2000 {
+.villas-2000 {
  padding-left: 17px;
 }
 .hotels {
@@ -1126,7 +1114,7 @@ a.button-info:hover {
  background-color: #669ec0;
 }
 a.button-info:active {
- color: #928a85;
+ color: rgba(255, 255, 255, 0.3);
  background-color: #5496bd;
 }
 a.button-booking {
@@ -1151,7 +1139,7 @@ a.button-booking:hover {
  background-color: #604e43;
 }
 a.button-booking:active {
- color: #827872;
+ color: rgba(255, 255, 255, 0.3);
  background-color: #503e33;
 }
 p.number {
